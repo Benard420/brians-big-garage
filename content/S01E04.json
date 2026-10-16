@@ -1,0 +1,1614 @@
+{
+  "series_id": "bbg",
+  "series_title": "Brian's Big Garage",
+  "episode_id": "S01E04",
+  "episode_number": 4,
+  "revision": "1.0",
+  "title": "Inside the Mighty Engine",
+  "hook": "Brian drew a super engine on his cardboard car and shouted VROOM — so why won't it move?",
+  "reading_minutes": 7,
+  "core_lesson": "Noise doesn't move cars — energy does. When you're stuck, ask someone who knows.",
+  "new_terms": [
+    "energy",
+    "engine"
+  ],
+  "adult_safety_note": "No real engines, fuel or batteries are handled. Auntie Ada uses picture cards and the toy Bolt. Children build a paper sail with tape and a paper straw and move it with their own breath.",
+  "localisation_key_prefix": "s01e04",
+  "editorial_status": "draft",
+  "learning_objectives": [
+    {
+      "topic": "Science",
+      "goal": "Things need energy to move; noise is not what moves a car."
+    },
+    {
+      "topic": "System",
+      "goal": "Bolt's simplified energy path: battery → switch and wires → motor → axle → wheels."
+    },
+    {
+      "topic": "Sequencing",
+      "goal": "Put the steps of an energy path in order, from where energy starts to where it ends."
+    },
+    {
+      "topic": "Real vehicles",
+      "goal": "Some cars burn fuel in an engine; electric cars use a big battery and motor. Real cars have many more parts."
+    },
+    {
+      "topic": "Asking for expertise",
+      "goal": "Brian stops guessing and asks Auntie Ada, who knows real engines."
+    },
+    {
+      "topic": "Safety",
+      "goal": "Real engines get hot and have moving parts — only look with a grown-up; children use pictures and paper models."
+    }
+  ],
+  "talk_together": [
+    "Why didn't shouting VROOM make Brian's car move?",
+    "Where did the energy for the sail car come from? Follow it back to the start.",
+    "Who could you ask when you want to know how something works?"
+  ],
+  "complete": {
+    "recall": "Noise doesn't move cars — energy does!",
+    "question": "Look around your home with a grown-up. What uses a battery, what plugs in, and what uses YOUR energy?"
+  },
+  "season": [
+    {
+      "ep": "01",
+      "title": "The Car That Wouldn't Move",
+      "concept": "wheels, axles, friction",
+      "link": "S01E01.html"
+    },
+    {
+      "ep": "02",
+      "title": "The Mystery of the Missing Wheels",
+      "concept": "parts and inventory",
+      "link": "S01E02.html"
+    },
+    {
+      "ep": "03",
+      "title": "The Great Ramp Race",
+      "concept": "gravity and fair tests",
+      "link": "S01E03.html"
+    },
+    {
+      "ep": "04",
+      "title": "Inside the Mighty Engine",
+      "concept": "energy and propulsion",
+      "available": true
+    },
+    {
+      "ep": "05",
+      "title": "The Time-Travel Garage",
+      "concept": "transport history",
+      "link": "S01E05.html"
+    },
+    {
+      "ep": "06",
+      "title": "Red Means Stop!",
+      "concept": "traffic infrastructure"
+    },
+    {
+      "ep": "07",
+      "title": "The Battery Mystery",
+      "concept": "simple circuits"
+    },
+    {
+      "ep": "08",
+      "title": "The Big Garage Mix-Up",
+      "concept": "scheduling"
+    },
+    {
+      "ep": "09",
+      "title": "Jasmine's Brilliant Idea",
+      "concept": "design iteration"
+    },
+    {
+      "ep": "10",
+      "title": "The Junior Engineer Challenge",
+      "concept": "full design process"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "ch4-path",
+      "kind": "order",
+      "label": "Energy-path puzzle",
+      "prompt": "Put Bolt's energy path in order, from start to finish.",
+      "items": [
+        {
+          "id": "motor",
+          "icon": "motor",
+          "label": "Motor"
+        },
+        {
+          "id": "wheels",
+          "icon": "wheel",
+          "label": "Wheels"
+        },
+        {
+          "id": "battery",
+          "icon": "battery",
+          "label": "Battery"
+        },
+        {
+          "id": "axle",
+          "icon": "axle",
+          "label": "Axle"
+        },
+        {
+          "id": "switch",
+          "icon": "switch",
+          "label": "Switch & wires"
+        }
+      ],
+      "answer": [
+        "battery",
+        "switch",
+        "motor",
+        "axle",
+        "wheels"
+      ],
+      "hint": "Energy starts where it is stored. Where does Bolt keep its energy?",
+      "explain": "Battery → switch and wires → motor → axle → wheels. This is a simplified toy path — real electric cars have many more parts.",
+      "retry": true
+    },
+    {
+      "id": "ch4-food",
+      "kind": "single_choice",
+      "label": "Marcus's energy",
+      "prompt": "Where does Marcus get the energy to run and play?",
+      "options": [
+        {
+          "id": "battery",
+          "text": "From a battery."
+        },
+        {
+          "id": "food",
+          "text": "From the food he eats."
+        },
+        {
+          "id": "noise",
+          "text": "From making loud noises."
+        }
+      ],
+      "answer": "food",
+      "hint": "Think about what Marcus was holding up so proudly.",
+      "explain": "Food gives our bodies energy — to run, to play, and even to blow on a sail!",
+      "retry": true
+    },
+    {
+      "id": "ch4-sail",
+      "kind": "prediction",
+      "label": "Make a prediction",
+      "prompt": "Jasmine wants to try a BIGGER sail. What do you predict?",
+      "options": [
+        {
+          "id": "farther",
+          "text": "It will go farther."
+        },
+        {
+          "id": "same",
+          "text": "It will go the same."
+        },
+        {
+          "id": "less",
+          "text": "It will go less far."
+        }
+      ],
+      "explain": "Great prediction! Testing is how we find out — try it with paper, tape and a grown-up."
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        {
+          "panel_id": "S01E04-P01-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Brian blows hard at his cardboard car, which has a 'super engine' drawn on it. It doesn't move.",
+          "characters": [
+            "Brian"
+          ],
+          "caption": "Brian has drawn a super engine on his cardboard car.",
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Super engine… ACTIVATE!"
+            }
+          ],
+          "sfx": "PHOOO",
+          "alt_text": "Brian kneels and blows hard at his cardboard car. PHOOO! The car doesn't move at all.",
+          "motion": {
+            "type": "limited",
+            "description": "Brian puffs",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "problem"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 260,
+                "color": "#c9955a"
+              },
+              {
+                "type": "windlines",
+                "x": 175,
+                "y": 200
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 120,
+                "face": "wow",
+                "armL": "hip",
+                "armR": "hip",
+                "look": 1,
+                "anim": "shake"
+              }
+            ],
+            "sfx": [
+              {
+                "text": "PHOOO!",
+                "x": 250,
+                "y": 140,
+                "rot": -6,
+                "size": 36
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E04-P01-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Marcus shouts VROOM at the car. Still nothing.",
+          "characters": [
+            "Marcus",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "VROOM VROOM VROOOOM!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "Even vrooming doesn't work!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus shouts VROOM at the cardboard car with his fists in the air. The car sits still. Brian slumps.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus bounces",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "humour",
+            "assumption"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 215,
+                "color": "#c9955a"
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 140,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "look": 1,
+                "anim": "bounce"
+              },
+              {
+                "who": "brian",
+                "x": 310,
+                "face": "sad",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "panels": [
+        {
+          "panel_id": "S01E04-P02-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian explains his goal; Jasmine asks a good question.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "I want my car to move by itself for the Neighbourhood Show!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "What makes Bolt move?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian holds up his cardboard car hopefully. Jasmine points at Bolt, the orange toy car, sitting nearby.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "goal",
+            "question"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 210,
+                "s": 0.8
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 100,
+                "face": "determined",
+                "armR": "hold",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 310,
+                "face": "think",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E04-P02-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Brian is sure engines work by making noise.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Engines go VROOM. The noise makes cars go!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "Hmm… are you sure?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian confidently waves his arms making engine noises. Jasmine raises an eyebrow, not convinced.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "assumption"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 140,
+                "face": "big",
+                "armL": "wave",
+                "armR": "wave",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 280,
+                "face": "think",
+                "armR": "hold",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "panels": [
+        {
+          "panel_id": "S01E04-P03-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Brian stops and thinks, then decides to ask an expert.",
+          "characters": [
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Wait. I'm only guessing. Auntie Ada knows real engines — let's ask her!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian taps his head, realising he's guessing, then points toward the door where Auntie Ada is coming in.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "asking for expertise",
+            "leadership"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 170,
+                "face": "think",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E04-P03-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Ada arrives and praises Brian for asking.",
+          "characters": [
+            "Ada",
+            "Brian"
+          ],
+          "caption": "New word: ENERGY — what makes things move, light up or warm up.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Asking was smart! Noise doesn't move cars. ENERGY does."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada kneels beside Brian, smiling, and explains that energy is what moves cars.",
+          "motion": {
+            "type": "limited",
+            "description": "Ada slides in",
+            "duration_ms": 600
+          },
+          "lesson_tags": [
+            "energy",
+            "vocabulary"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "happy",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 290,
+                "face": "happy",
+                "armR": "point",
+                "flip": true,
+                "anim": "slidein"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "panels": [
+        {
+          "panel_id": "S01E04-P04-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada shows Bolt's energy path as a picture chain above the toy.",
+          "characters": [
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Bolt's energy starts in the battery and passes from part to part, all the way to the wheels."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Above Bolt floats a picture chain: battery, switch and wires, motor, axle, wheels, joined by arrows. Auntie Ada points along it.",
+          "motion": {
+            "type": "limited",
+            "description": "chain pops",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "energy",
+            "system",
+            "sequencing"
+          ],
+          "safety_status": "pending_review",
+          "fact": {
+            "title": "A simplified toy path",
+            "text": "Battery → switch and wires → motor → axle → wheels. Real electric cars also have computers and power electronics, and different cars connect their parts in different ways."
+          },
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "iconpath",
+                "x": 240,
+                "y": 62,
+                "items": [
+                  "battery",
+                  "switch",
+                  "motor",
+                  "axle",
+                  "wheel"
+                ],
+                "anim": "pop"
+              },
+              {
+                "type": "car",
+                "x": 290,
+                "s": 0.9,
+                "sw": "off"
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 50,
+                "face": "happy",
+                "armR": "up",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E04-P04-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Jasmine compares the energy path to a relay race.",
+          "characters": [
+            "Jasmine",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "It's like a relay race! Each part passes the energy on."
+            },
+            {
+              "speaker": "Brian",
+              "text": "Can I put it in order?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine mimes passing a relay baton. Brian looks keen to try the puzzle.",
+          "motion": {
+            "type": "limited",
+            "description": "Jasmine bounces",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "sequencing",
+            "energy"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch4-path",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 130,
+                "face": "big",
+                "armR": "point",
+                "look": 1,
+                "anim": "bounce"
+              },
+              {
+                "who": "brian",
+                "x": 280,
+                "face": "determined",
+                "armR": "up",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "panels": [
+        {
+          "panel_id": "S01E04-P05-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian asks about real cars.",
+          "characters": [
+            "Brian",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Do real cars have a battery like Bolt?"
+            },
+            {
+              "speaker": "Ada",
+              "text": "It depends on the car!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian asks a question with Bolt in his hand. Auntie Ada smiles and reaches for some picture cards.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "question"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "think",
+                "armR": "hold",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 290,
+                "face": "happy",
+                "armR": "hold",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E04-P05-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada holds up two picture cards: a fuel-engine car and an electric car.",
+          "characters": [
+            "Ada"
+          ],
+          "caption": "New word: ENGINE — a machine that burns fuel to make things move.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Some cars burn fuel in an engine. Electric cars use a big battery and motor."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Two picture cards. The first shows a car with a fuel can and an engine block. The second shows a car with a battery and a charging plug.",
+          "motion": {
+            "type": "limited",
+            "description": "cards pop",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "engine",
+            "vocabulary",
+            "real vehicles"
+          ],
+          "safety_status": "pending_review",
+          "fact": {
+            "title": "Engines and motors",
+            "text": "In a fuel engine, fuel burns inside and pushes parts that help turn the wheels. An electric motor uses electricity from a battery. Both are simplified here — real cars have many parts, and they don't all work the same way."
+          },
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "picturecards",
+                "x": 255,
+                "y": 120,
+                "anim": "pop",
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 100,
+                "face": "happy",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "panels": [
+        {
+          "panel_id": "S01E04-P06-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian asks to open a real engine; Ada explains why they'll use pictures.",
+          "characters": [
+            "Brian",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Can we open a real engine?"
+            },
+            {
+              "speaker": "Ada",
+              "text": "Real engines get hot and have moving parts. We'll use my pictures instead."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian looks eager. Auntie Ada gently shakes her head and holds up her picture cards instead.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "safety"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "big",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 290,
+                "face": "think",
+                "armR": "hold",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E04-P06-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Marcus holds up a banana proudly.",
+          "characters": [
+            "Marcus",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Me got energy too! BANANA!"
+            },
+            {
+              "speaker": "Ada",
+              "text": "Yes! Food gives your body energy."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus holds a banana high above his head like a trophy. Auntie Ada laughs.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus hops",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "energy",
+            "humour"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "banana",
+                "x": 166,
+                "y": 160,
+                "s": 1.4,
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 150,
+                "face": "big",
+                "armR": "up",
+                "look": 1,
+                "anim": "bounce"
+              },
+              {
+                "who": "ada",
+                "x": 300,
+                "face": "laugh",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "panels": [
+        {
+          "panel_id": "S01E04-P07-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Jasmine realises everything that moves needs energy from somewhere.",
+          "characters": [
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "So everything that moves needs energy from somewhere!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine spreads her arms wide with a big realisation, Bolt and the banana beside her.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "energy"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch4-food",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 280,
+                "s": 0.8
+              },
+              {
+                "type": "banana",
+                "x": 330,
+                "y": 262
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 160,
+                "face": "big",
+                "armL": "wave",
+                "armR": "wave",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E04-P07-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Brian looks at his cardboard car: no battery, no fuel.",
+          "characters": [
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "My car has no battery and no fuel. Where can it get energy?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian kneels by his plain cardboard car, chin in hand, puzzling it out.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "problem"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 250,
+                "color": "#c9955a"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 130,
+                "face": "think",
+                "armR": "hold",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "panels": [
+        {
+          "panel_id": "S01E04-P08-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Jasmine shows a drawing of a paper sail.",
+          "characters": [
+            "Jasmine",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "What if it had a sail, like a boat? You could blow on it!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "Jasmine, that's brilliant!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine holds up her drawing of a car with a sail. Brian's eyes light up.",
+          "motion": {
+            "type": "limited",
+            "description": "Brian bounces",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "idea",
+            "teamwork"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 215,
+                "y": 170,
+                "s": 0.6,
+                "color": "#c9955a",
+                "sail": true,
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 140,
+                "face": "big",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "brian",
+                "x": 300,
+                "face": "big",
+                "armL": "up",
+                "flip": true,
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E04-P08-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada and the children tape a paper sail to a paper-straw mast on the car.",
+          "characters": [
+            "Ada",
+            "Marcus"
+          ],
+          "caption": "Paper, tape and a paper straw: a safe, simple sail.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "You tape the sail. I'll hold the straw steady."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada holds a paper straw mast steady on the cardboard car while Marcus presses tape onto the paper sail.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "building",
+            "safety"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 215,
+                "color": "#c9955a",
+                "sail": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 140,
+                "face": "determined",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 300,
+                "face": "happy",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "panels": [
+        {
+          "panel_id": "S01E04-P09-A",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Brian blows on the sail and the car rolls forward.",
+          "characters": [
+            "Brian"
+          ],
+          "caption": "Brian's breath pushes the sail. The sail pushes the car!",
+          "dialogue": [],
+          "sfx": "PHOOO",
+          "alt_text": "Brian blows on the paper sail. PHOOO! Wind lines push the sail, and the cardboard car rolls forward.",
+          "motion": {
+            "type": "limited",
+            "description": "car rolls",
+            "duration_ms": 700
+          },
+          "lesson_tags": [
+            "energy",
+            "propulsion"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "windlines",
+                "x": 160,
+                "y": 200
+              },
+              {
+                "type": "car",
+                "x": 290,
+                "color": "#c9955a",
+                "sail": true,
+                "spin": "all",
+                "anim": "rollshort"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "wow",
+                "armL": "hip",
+                "armR": "hip",
+                "look": 1
+              }
+            ],
+            "sfx": [
+              {
+                "text": "PHOOO!",
+                "x": 200,
+                "y": 140,
+                "rot": -6,
+                "size": 36
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E04-P09-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian and Jasmine trace the new energy path.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "It moves! My energy made it go!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "Banana, breath, sail, car — another relay race!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "A picture chain floats above Brian and Jasmine: banana, wind, sail, car, joined by arrows.",
+          "motion": {
+            "type": "limited",
+            "description": "chain pops",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "energy",
+            "sequencing"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "iconpath",
+                "x": 200,
+                "y": 70,
+                "items": [
+                  "banana",
+                  "wind",
+                  "sail",
+                  "car"
+                ],
+                "anim": "pop"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 290,
+                "face": "laugh",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "panels": [
+        {
+          "panel_id": "S01E04-P10-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Marcus blows so hard he topples over; the car barely moves.",
+          "characters": [
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "PHOOOOOO! …Me tired."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus puffs his cheeks and blows with all his might from far away, then flops onto the floor, worn out. The car has barely moved.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus wobbles",
+            "duration_ms": 450
+          },
+          "lesson_tags": [
+            "humour",
+            "energy"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "lyingmarcus",
+                "x": 140,
+                "y": 266
+              },
+              {
+                "type": "car",
+                "x": 320,
+                "color": "#c9955a",
+                "sail": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E04-P10-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Ada laughs and explains; Jasmine wonders about a bigger sail.",
+          "characters": [
+            "Ada",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Blowing uses up your energy, Marcus. Time for another banana!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "What if we made a BIGGER sail?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada laughs. Jasmine holds up a bigger sheet of paper, already planning.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "energy",
+            "prediction"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch4-sail",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "banana",
+                "x": 245,
+                "y": 160,
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 260,
+                "face": "laugh",
+                "armR": "hold",
+                "flip": true
+              },
+              {
+                "who": "jasmine",
+                "x": 110,
+                "face": "think",
+                "armR": "up",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "panels": [
+        {
+          "panel_id": "S01E04-P11-A",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "At the Neighbourhood Show, the children blow their sail cars along a smooth board.",
+          "characters": [
+            "Jasmine",
+            "Brian"
+          ],
+          "caption": "The Neighbourhood Show.",
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "Ready… set… BLOW!"
+            }
+          ],
+          "sfx": "WHOOSH",
+          "alt_text": "Under colourful bunting, Brian blows his sail car along a smooth board track while Jasmine cheers. WHOOSH!",
+          "motion": {
+            "type": "limited",
+            "description": "car rolls",
+            "duration_ms": 700
+          },
+          "lesson_tags": [
+            "propulsion",
+            "celebration"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "props": [
+              {
+                "type": "board",
+                "x": 150,
+                "w": 220
+              },
+              {
+                "type": "windlines",
+                "x": 150,
+                "y": 205
+              },
+              {
+                "type": "car",
+                "x": 280,
+                "y": 266,
+                "color": "#c9955a",
+                "sail": true,
+                "spin": "all",
+                "anim": "rollshort"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 100,
+                "face": "wow",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 40,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "look": 1
+              }
+            ],
+            "sfx": [
+              {
+                "text": "WHOOSH!",
+                "x": 290,
+                "y": 130,
+                "rot": -6,
+                "size": 38
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E04-P11-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian thanks Ada; Ada credits the children's idea.",
+          "characters": [
+            "Brian",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Thanks, Auntie Ada. Asking an expert was a great plan."
+            },
+            {
+              "speaker": "Ada",
+              "text": "And you three figured out the sail!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian thanks Auntie Ada with a big smile. She gives him a thumbs-up.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "asking for expertise",
+            "teamwork"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 120,
+                "face": "happy",
+                "armR": "hold",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 290,
+                "face": "happy",
+                "armR": "up",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "panels": [
+        {
+          "panel_id": "S01E04-P12-A",
+          "shot": "three-shot",
+          "location": "garage",
+          "visual": "The siblings share the lesson; Marcus adds his own.",
+          "characters": [
+            "Brian",
+            "Marcus",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Noise doesn't move cars. Energy does!"
+            },
+            {
+              "speaker": "Marcus",
+              "text": "And BANANAS!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian, Jasmine and Marcus laugh together. Marcus waves his banana in the air.",
+          "motion": {
+            "type": "limited",
+            "description": "cheer",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "energy",
+            "humour"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "props": [
+              {
+                "type": "banana",
+                "x": 262,
+                "y": 150,
+                "s": 1.2,
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 100,
+                "face": "big",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 180,
+                "face": "laugh",
+                "armL": "up",
+                "armR": "up"
+              },
+              {
+                "who": "marcus",
+                "x": 250,
+                "face": "laugh",
+                "armR": "up",
+                "flip": true,
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E04-P12-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Ada shows an old photo of an early steam car.",
+          "characters": [
+            "Ada",
+            "Brian"
+          ],
+          "caption": "Next time: The Time-Travel Garage!",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Did you know some of the first cars ran on steam?"
+            },
+            {
+              "speaker": "Brian",
+              "text": "STEAM?!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada holds up an old brown photograph of an early steam car with tall spoked wheels and a puffing chimney. Brian's mouth falls open.",
+          "motion": {
+            "type": "limited",
+            "description": "photo pops",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "teaser",
+            "history"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "photo",
+                "x": 225,
+                "y": 120,
+                "anim": "pop",
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 90,
+                "face": "wow",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 300,
+                "face": "happy",
+                "armR": "hold",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

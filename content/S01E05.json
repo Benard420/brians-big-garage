@@ -1,0 +1,1691 @@
+{
+  "series_id": "bbg",
+  "series_title": "Brian's Big Garage",
+  "episode_id": "S01E05",
+  "episode_number": 5,
+  "revision": "1.0",
+  "title": "The Time-Travel Garage",
+  "hook": "Brian is SURE cars have always run on petrol — until a cardboard time machine takes the team on a trip through history.",
+  "reading_minutes": 7,
+  "core_lesson": "Cars haven't always used petrol — people tried steam, electric and petrol. Keep an open mind and check before you say 'always'.",
+  "new_terms": [
+    "history",
+    "timeline"
+  ],
+  "adult_safety_note": "The time travel is a clearly marked imagination sequence inside a cardboard box. No real vehicles, fuel or batteries are used. Historical facts are simplified for age 7 and should be checked by a reviewer before release.",
+  "localisation_key_prefix": "s01e05",
+  "editorial_status": "draft",
+  "learning_objectives": [
+    {
+      "topic": "History",
+      "goal": "Before cars, people walked and used horses. Inventors tried steam-powered road vehicles over 250 years ago."
+    },
+    {
+      "topic": "History",
+      "goal": "More than 100 years ago, steam, electric and petrol cars all shared the roads."
+    },
+    {
+      "topic": "Science",
+      "goal": "Early electric cars were quiet and easy to start but couldn't go very far; petrol cars could go farther. Better batteries brought electric cars back."
+    },
+    {
+      "topic": "Order",
+      "goal": "Put kinds of transport on a timeline from long ago to today."
+    },
+    {
+      "topic": "Open-mindedness",
+      "goal": "Brian learns to check facts instead of saying 'always', and to welcome new ideas."
+    },
+    {
+      "topic": "Safety",
+      "goal": "Imagination play happens in a safe cardboard 'time machine' on the floor."
+    }
+  ],
+  "talk_together": [
+    "Brian said cars ALWAYS used petrol. What did he find out?",
+    "Ask a grown-up: how did they travel when they were little? How is it different now?",
+    "What do you think cars of the future will use? Why?"
+  ],
+  "complete": {
+    "recall": "Cars weren't always petrol — people tried steam, electric AND petrol!",
+    "question": "Draw your own timeline: three ways people travelled, from long ago to today."
+  },
+  "season": [
+    {
+      "ep": "01",
+      "title": "The Car That Wouldn't Move",
+      "concept": "wheels, axles, friction",
+      "link": "S01E01.html"
+    },
+    {
+      "ep": "02",
+      "title": "The Mystery of the Missing Wheels",
+      "concept": "parts and inventory",
+      "link": "S01E02.html"
+    },
+    {
+      "ep": "03",
+      "title": "The Great Ramp Race",
+      "concept": "gravity and fair tests",
+      "link": "S01E03.html"
+    },
+    {
+      "ep": "04",
+      "title": "Inside the Mighty Engine",
+      "concept": "energy and propulsion",
+      "link": "S01E04.html"
+    },
+    {
+      "ep": "05",
+      "title": "The Time-Travel Garage",
+      "concept": "transport history",
+      "available": true
+    },
+    {
+      "ep": "06",
+      "title": "Red Means Stop!",
+      "concept": "traffic infrastructure",
+      "link": "S01E06.html"
+    },
+    {
+      "ep": "07",
+      "title": "The Battery Mystery",
+      "concept": "simple circuits"
+    },
+    {
+      "ep": "08",
+      "title": "The Big Garage Mix-Up",
+      "concept": "scheduling"
+    },
+    {
+      "ep": "09",
+      "title": "Jasmine's Brilliant Idea",
+      "concept": "design iteration"
+    },
+    {
+      "ep": "10",
+      "title": "The Junior Engineer Challenge",
+      "concept": "full design process"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "ch5-1900",
+      "kind": "single_choice",
+      "label": "Time-travel quiz",
+      "prompt": "More than 100 years ago, which cars were on the roads?",
+      "options": [
+        {
+          "id": "petrol",
+          "text": "Only petrol cars."
+        },
+        {
+          "id": "all",
+          "text": "Steam, electric AND petrol cars."
+        },
+        {
+          "id": "none",
+          "text": "No cars at all."
+        }
+      ],
+      "answer": "all",
+      "hint": "Look closely at the three old cars side by side. Are they all the same kind?",
+      "explain": "Steam, electric and petrol cars were all on the roads at the same time. People were still deciding which idea worked best!",
+      "retry": true
+    },
+    {
+      "id": "ch5-timeline",
+      "kind": "order",
+      "label": "Timeline puzzle",
+      "prompt": "Put these ways of travelling in order, from long ago to today.",
+      "items": [
+        {
+          "id": "steam",
+          "icon": "steam",
+          "label": "Steam car"
+        },
+        {
+          "id": "ev",
+          "icon": "ev",
+          "label": "Today's electric car"
+        },
+        {
+          "id": "walk",
+          "icon": "walk",
+          "label": "Walking"
+        },
+        {
+          "id": "horse",
+          "icon": "horse",
+          "label": "Horse and cart"
+        }
+      ],
+      "answer": [
+        "walk",
+        "horse",
+        "steam",
+        "ev"
+      ],
+      "hint": "What did people do before they had ANY machines or animals to ride?",
+      "explain": "Walking → horse and cart → steam car → today's electric car. A timeline puts things in the order they happened.",
+      "retry": true
+    },
+    {
+      "id": "ch5-future",
+      "kind": "prediction",
+      "label": "Into the future",
+      "prompt": "What do you think cars of the future will use?",
+      "options": [
+        {
+          "id": "battery",
+          "text": "Even better batteries."
+        },
+        {
+          "id": "sun",
+          "text": "Sunshine."
+        },
+        {
+          "id": "new",
+          "text": "Something nobody has invented yet!"
+        }
+      ],
+      "explain": "Nobody knows for sure — that's what makes it exciting! Maybe YOU will invent it."
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        {
+          "panel_id": "S01E05-P01-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Ada holds up the old steam car photo; Brian refuses to believe it.",
+          "characters": [
+            "Brian",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "A steam car? No way. Cars have ALWAYS used petrol!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada holds up the old brown photo of a steam car. Brian folds his arms, sure he knows better.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "assumption"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "photo",
+                "x": 225,
+                "y": 120,
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 90,
+                "face": "determined",
+                "armL": "hip",
+                "armR": "hip",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 300,
+                "face": "happy",
+                "armR": "hold",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E05-P01-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Jasmine points at Bolt; Brian waves it away.",
+          "characters": [
+            "Jasmine",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "But Bolt uses a battery."
+            },
+            {
+              "speaker": "Brian",
+              "text": "Bolt's a toy. Electric cars are brand new!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine points at Bolt, the orange toy car. Brian waves his hand as if that doesn't count.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "assumption"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 205,
+                "s": 0.8
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 110,
+                "face": "think",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "brian",
+                "x": 300,
+                "face": "determined",
+                "armR": "wave",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "panels": [
+        {
+          "panel_id": "S01E05-P02-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada suggests a trip back in time; Marcus jumps into a big cardboard box.",
+          "characters": [
+            "Ada",
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Let's find out. Shall we travel back in time — in our imagination?"
+            },
+            {
+              "speaker": "Marcus",
+              "text": "TIME MACHINE!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada smiles and gestures to a big cardboard box. Marcus has already jumped in, arms up.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus jumps",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "imagination"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "box",
+                "x": 240,
+                "s": 1.5,
+                "empty": true,
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 90,
+                "face": "happy",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "marcus",
+                "x": 240,
+                "y": 236,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E05-P02-B",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "All three children squeeze into the box; Brian turns a pretend dial.",
+          "characters": [
+            "Brian",
+            "Jasmine",
+            "Marcus"
+          ],
+          "caption": "New word: HISTORY — the story of what happened long ago.",
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Set the dial to… long, long ago!"
+            }
+          ],
+          "sfx": "WHOOSH",
+          "alt_text": "Brian, Jasmine and Marcus crowd inside the cardboard box time machine. Brian twists a pretend dial. WHOOSH!",
+          "motion": {
+            "type": "limited",
+            "description": "box shakes",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "history",
+            "vocabulary"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "box",
+                "x": 200,
+                "y": 285,
+                "s": 1.9,
+                "empty": true,
+                "front": true,
+                "anim": "shake"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 150,
+                "y": 232,
+                "face": "determined",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 210,
+                "y": 232,
+                "face": "big",
+                "armR": "up"
+              },
+              {
+                "who": "marcus",
+                "x": 262,
+                "y": 205,
+                "face": "big",
+                "armL": "up",
+                "flip": true
+              }
+            ],
+            "sfx": [
+              {
+                "text": "WHOOSH!",
+                "x": 200,
+                "y": 70,
+                "rot": -6,
+                "size": 42
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "panels": [
+        {
+          "panel_id": "S01E05-P03-A",
+          "shot": "wide",
+          "location": "imagination",
+          "visual": "Imagination: a long-ago road with a horse and cart. No cars.",
+          "characters": [
+            "Marcus",
+            "Jasmine"
+          ],
+          "caption": "In their imagination: long, long ago.",
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "HORSE!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "No cars at all! People walked, or used horses."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "A dreamy lavender sky with sparkles shows this is imagination. On a grassy road, a horse pulls a wooden cart with big spoked wheels. Marcus and Jasmine stare in wonder.",
+          "motion": {
+            "type": "limited",
+            "description": "cart rolls in",
+            "duration_ms": 700
+          },
+          "lesson_tags": [
+            "history"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "imagine",
+            "props": [
+              {
+                "type": "horsecart",
+                "x": 240,
+                "y": 266,
+                "s": 0.9,
+                "anim": "rollshort"
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 50,
+                "face": "big",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 105,
+                "face": "wow",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E05-P03-B",
+          "shot": "two-shot",
+          "location": "imagination",
+          "visual": "Ada explains why people wanted machines.",
+          "characters": [
+            "Ada",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Horses need food and rest. People dreamed of machines that never got tired."
+            },
+            {
+              "speaker": "Brian",
+              "text": "Like a car!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "In the dreamy past, Auntie Ada pats the air where the horse stands resting. Brian raises a finger with an idea.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "history",
+            "energy"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "imagine",
+            "props": [
+              {
+                "type": "horsecart",
+                "x": 250,
+                "y": 266,
+                "s": 0.75
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 60,
+                "face": "big",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 130,
+                "face": "happy",
+                "armR": "point",
+                "look": 1,
+                "s": 0.9
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "panels": [
+        {
+          "panel_id": "S01E05-P04-A",
+          "shot": "wide",
+          "location": "imagination",
+          "visual": "Imagination: an early steam vehicle puffing along.",
+          "characters": [
+            "Brian"
+          ],
+          "caption": "Over 250 years ago, inventors tried road vehicles powered by steam.",
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "It really IS a steam car!"
+            }
+          ],
+          "sfx": "CHUFF",
+          "alt_text": "A tall, puffing steam vehicle with an upright boiler, a chimney and big spoked wheels chugs across the dreamy road. CHUFF! Brian's jaw drops.",
+          "motion": {
+            "type": "limited",
+            "description": "steam car rolls in",
+            "duration_ms": 700
+          },
+          "lesson_tags": [
+            "history",
+            "steam"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "imagine",
+            "props": [
+              {
+                "type": "steamcar",
+                "x": 260,
+                "y": 268,
+                "s": 1.25,
+                "anim": "rollshort"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 90,
+                "face": "wow",
+                "armL": "up",
+                "armR": "up",
+                "look": 1
+              }
+            ],
+            "sfx": [
+              {
+                "text": "CHUFF!",
+                "x": 170,
+                "y": 90,
+                "rot": -8,
+                "size": 38
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E05-P04-B",
+          "shot": "two-shot",
+          "location": "imagination",
+          "visual": "Ada explains how steam moves the vehicle.",
+          "characters": [
+            "Ada",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Burning fuel heats water into steam. The steam pushes parts that turn the wheels."
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "Like a giant kettle on wheels!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada points at the steam car's boiler. Jasmine giggles, picturing a kettle on wheels.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "steam",
+            "energy"
+          ],
+          "safety_status": "pending_review",
+          "fact": {
+            "title": "Steam power (simplified)",
+            "text": "In a steam engine, burning fuel heats water until it turns into steam. The steam pushes on parts that help turn the wheels. Some early steam cars needed time to warm up before they could go."
+          },
+          "scene": {
+            "bg": "imagine",
+            "props": [
+              {
+                "type": "steamcar",
+                "x": 210,
+                "y": 268,
+                "s": 1
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 90,
+                "face": "happy",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 330,
+                "face": "laugh",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "panels": [
+        {
+          "panel_id": "S01E05-P05-A",
+          "shot": "wide",
+          "location": "imagination",
+          "visual": "Imagination: three early cars side by side — steam, electric and petrol.",
+          "characters": [],
+          "caption": "More than 100 years ago, steam, electric AND petrol cars all shared the roads.",
+          "dialogue": [],
+          "sfx": "",
+          "alt_text": "Three old-fashioned cars with tall spoked wheels stand side by side: a grey steam car with a small chimney, a purple electric car with a lightning-bolt sign, and a red petrol car with a front engine box and a puff of exhaust.",
+          "motion": {
+            "type": "limited",
+            "description": "cars pop in",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "history"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "imagine",
+            "props": [
+              {
+                "type": "oldcar",
+                "x": 75,
+                "y": 268,
+                "kind": "steam",
+                "s": 0.95,
+                "anim": "pop"
+              },
+              {
+                "type": "oldcar",
+                "x": 200,
+                "y": 268,
+                "kind": "electric",
+                "s": 0.95,
+                "anim": "pop"
+              },
+              {
+                "type": "oldcar",
+                "x": 322,
+                "y": 268,
+                "kind": "petrol",
+                "s": 0.95,
+                "anim": "pop"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E05-P05-B",
+          "shot": "two-shot",
+          "location": "imagination",
+          "visual": "Brian is amazed; Jasmine makes a joke about Bolt's ancestors.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Electric cars… back THEN?!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "That's Bolt's great-great-grandpa!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian clutches his head in amazement next to the old purple electric car. Jasmine laughs and points at it.",
+          "motion": {
+            "type": "limited",
+            "description": "Brian shakes",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "history",
+            "humour"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch5-1900",
+          "scene": {
+            "bg": "imagine",
+            "props": [
+              {
+                "type": "oldcar",
+                "x": 210,
+                "y": 268,
+                "kind": "electric"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 80,
+                "face": "wow",
+                "armL": "up",
+                "armR": "up",
+                "look": 1,
+                "anim": "shake"
+              },
+              {
+                "who": "jasmine",
+                "x": 330,
+                "face": "laugh",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "panels": [
+        {
+          "panel_id": "S01E05-P06-A",
+          "shot": "two-shot",
+          "location": "imagination",
+          "visual": "Ada explains early electric cars' strengths and limits.",
+          "characters": [
+            "Ada",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Electric cars were quiet and easy to start. But their batteries couldn't go very far."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada stands by the old electric car and explains. Brian listens closely.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "history",
+            "battery"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "imagine",
+            "props": [
+              {
+                "type": "oldcar",
+                "x": 220,
+                "y": 268,
+                "kind": "electric"
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 90,
+                "face": "happy",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "brian",
+                "x": 340,
+                "face": "think",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E05-P06-B",
+          "shot": "two-shot",
+          "location": "imagination",
+          "visual": "Ada explains why petrol cars became popular; Marcus zooms around pretending.",
+          "characters": [
+            "Ada",
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Petrol cars could go farther, so lots of people chose them."
+            },
+            {
+              "speaker": "Marcus",
+              "text": "Vroooom… FAR AWAY!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada gestures to the old red petrol car. Marcus runs past with his arms out, pretending to be a car driving far away.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus runs",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "history",
+            "humour"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "imagine",
+            "props": [
+              {
+                "type": "oldcar",
+                "x": 220,
+                "y": 268,
+                "kind": "petrol"
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 90,
+                "face": "happy",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "marcus",
+                "x": 340,
+                "face": "big",
+                "armL": "wave",
+                "armR": "wave",
+                "anim": "bounce"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "panels": [
+        {
+          "panel_id": "S01E05-P07-A",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Back in today's garage, a picture of a modern electric car plugged in.",
+          "characters": [
+            "Brian",
+            "Ada"
+          ],
+          "caption": "Back to today!",
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "So electric cars came back — with much better batteries!"
+            },
+            {
+              "speaker": "Ada",
+              "text": "Exactly."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Back in the real garage, the children tumble out of the box. Auntie Ada shows a picture chain of a modern electric car and a charging plug.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "history",
+            "battery"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "iconpath",
+                "x": 200,
+                "y": 70,
+                "items": [
+                  "ev",
+                  "battery",
+                  "plug"
+                ]
+              },
+              {
+                "type": "box",
+                "x": 205,
+                "empty": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 80,
+                "face": "big",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 320,
+                "face": "happy",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E05-P07-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Jasmine sums it up; Brian admits he was wrong.",
+          "characters": [
+            "Jasmine",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "It's not old ideas or new ideas. People keep trying!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "I was wrong. Cars didn't always use petrol."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine spreads her arms. Brian scratches his head with a sheepish smile.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "open-mindedness",
+            "leadership"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 120,
+                "face": "big",
+                "armL": "wave",
+                "armR": "wave",
+                "look": 1
+              },
+              {
+                "who": "brian",
+                "x": 280,
+                "face": "sorry",
+                "armR": "up",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "panels": [
+        {
+          "panel_id": "S01E05-P08-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Ada introduces timelines; Jasmine picks up her crayons.",
+          "characters": [
+            "Ada",
+            "Jasmine"
+          ],
+          "caption": "New word: TIMELINE — things in the order they happened.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Let's make a timeline of our trip."
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "I'll draw it!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada kneels with a long strip of paper. Jasmine holds up her crayons, excited.",
+          "motion": {
+            "type": "limited",
+            "description": "Jasmine bounces",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "timeline",
+            "vocabulary"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch5-timeline",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "ada",
+                "x": 280,
+                "face": "happy",
+                "armR": "hold",
+                "flip": true
+              },
+              {
+                "who": "jasmine",
+                "x": 120,
+                "face": "big",
+                "armR": "up",
+                "look": 1,
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E05-P08-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Jasmine's finished timeline: walking, horse, steam car, electric car.",
+          "characters": [
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Feet first! Then horse! Then puff-puff!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine's timeline: an arrow from left to right with four pictures — footprints, a horse, a steam car and a modern electric car with a plug. Marcus points at the first picture.",
+          "motion": {
+            "type": "limited",
+            "description": "timeline pops",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "timeline",
+            "order"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "timeline",
+                "x": 205,
+                "y": 160,
+                "w": 330,
+                "items": [
+                  "walk",
+                  "horse",
+                  "steam",
+                  "ev"
+                ],
+                "anim": "pop"
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 70,
+                "face": "big",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "panels": [
+        {
+          "panel_id": "S01E05-P09-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Marcus tries to add his banana to the 'long ago' end of the timeline.",
+          "characters": [
+            "Marcus",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Banana… LONG AGO!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "Bananas are long ago AND today, silly!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus holds his banana over the start of the timeline. Jasmine giggles.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus hops",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "humour",
+            "timeline"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "timeline",
+                "x": 230,
+                "y": 120,
+                "w": 260,
+                "items": [
+                  "walk",
+                  "horse",
+                  "steam",
+                  "ev"
+                ]
+              },
+              {
+                "type": "banana",
+                "x": 152,
+                "y": 168,
+                "s": 1.2,
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 130,
+                "face": "big",
+                "armR": "up",
+                "look": 1,
+                "anim": "bounce"
+              },
+              {
+                "who": "jasmine",
+                "x": 330,
+                "face": "laugh",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E05-P09-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Brian counts the big steps on the timeline.",
+          "characters": [
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Feet, horse, steam, then electric today. Four big steps!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian points at each picture on the timeline in turn, counting four steps from long ago to today.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "order",
+            "number"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "timeline",
+                "x": 230,
+                "y": 120,
+                "w": 260,
+                "items": [
+                  "walk",
+                  "horse",
+                  "steam",
+                  "ev"
+                ]
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 70,
+                "face": "determined",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "panels": [
+        {
+          "panel_id": "S01E05-P10-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Brian wonders about the future.",
+          "characters": [
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "So what will cars use in the FUTURE?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian looks up dreamily, imagining the cars of tomorrow.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "prediction",
+            "open-mindedness"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch5-future",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 200,
+                "face": "think",
+                "armR": "hold",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E05-P10-B",
+          "shot": "wide",
+          "location": "imagination",
+          "visual": "Imagination: Jasmine's sunshine car and Marcus's banana car.",
+          "characters": [
+            "Jasmine",
+            "Marcus"
+          ],
+          "caption": "In their imagination: the future!",
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "A car that runs on sunshine!"
+            },
+            {
+              "speaker": "Marcus",
+              "text": "BANANA CAR!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "In a dreamy sky, Jasmine imagines a car under a big sun, and Marcus imagines a car with a giant banana on top.",
+          "motion": {
+            "type": "limited",
+            "description": "cars pop",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "imagination",
+            "humour"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "imagine",
+            "props": [
+              {
+                "type": "car",
+                "x": 140,
+                "y": 266,
+                "color": "#65B5A8",
+                "anim": "pop"
+              },
+              {
+                "type": "iconpath",
+                "x": 140,
+                "y": 160,
+                "items": [
+                  "sun"
+                ]
+              },
+              {
+                "type": "car",
+                "x": 290,
+                "y": 266,
+                "color": "#F3B340",
+                "anim": "pop"
+              },
+              {
+                "type": "banana",
+                "x": 292,
+                "y": 210,
+                "s": 1.6
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 50,
+                "face": "big",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "marcus",
+                "x": 365,
+                "face": "laugh",
+                "armL": "up",
+                "armR": "up",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "panels": [
+        {
+          "panel_id": "S01E05-P11-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Ada encourages open minds; Brian jokes about the banana car.",
+          "characters": [
+            "Ada",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Keep an open mind. Today's wild idea could become tomorrow's car."
+            },
+            {
+              "speaker": "Brian",
+              "text": "Even a banana car?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada smiles warmly. Brian grins and raises an eyebrow.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "open-mindedness"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "ada",
+                "x": 280,
+                "face": "happy",
+                "armR": "point",
+                "flip": true
+              },
+              {
+                "who": "brian",
+                "x": 120,
+                "face": "laugh",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E05-P11-B",
+          "shot": "three-shot",
+          "location": "garage",
+          "visual": "Brian makes a deal with his siblings.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Next time I say 'always', remind me to check!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "Deal!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian holds out his hand. Jasmine shakes it while Marcus jumps in to join.",
+          "motion": {
+            "type": "limited",
+            "description": "team bounce",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "open-mindedness",
+            "teamwork"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 120,
+                "face": "happy",
+                "armR": "hug",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 215,
+                "face": "big",
+                "armR": "hug",
+                "flip": true
+              },
+              {
+                "who": "marcus",
+                "x": 300,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "flip": true,
+                "anim": "bounce"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "panels": [
+        {
+          "panel_id": "S01E05-P12-A",
+          "shot": "three-shot",
+          "location": "garage",
+          "visual": "The siblings share the lesson beside their timeline.",
+          "characters": [
+            "Brian",
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Cars weren't always petrol. People tried steam, electric AND petrol!"
+            },
+            {
+              "speaker": "Marcus",
+              "text": "And HORSES!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian, Jasmine and Marcus cheer under their timeline poster.",
+          "motion": {
+            "type": "limited",
+            "description": "cheer",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "history",
+            "humour"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "timeline",
+                "x": 200,
+                "y": 100,
+                "w": 280,
+                "items": [
+                  "walk",
+                  "horse",
+                  "steam",
+                  "ev"
+                ]
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 100,
+                "face": "big",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 200,
+                "face": "laugh",
+                "armL": "up",
+                "armR": "up"
+              },
+              {
+                "who": "marcus",
+                "x": 290,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "flip": true,
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E05-P12-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Through the garage window, Jasmine notices a traffic light outside.",
+          "characters": [
+            "Jasmine",
+            "Ada"
+          ],
+          "caption": "Next time: Red Means Stop!",
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "Auntie Ada, why do traffic lights have three colours?"
+            },
+            {
+              "speaker": "Ada",
+              "text": "That's a big question. Let's find out together."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine points at the garage window, where a traffic light can be seen outside. Auntie Ada smiles beside her.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "teaser"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "trafficlight",
+                "x": 86,
+                "y": 58,
+                "s": 0.7,
+                "pole": false
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 175,
+                "face": "think",
+                "armR": "point",
+                "flip": true
+              },
+              {
+                "who": "ada",
+                "x": 300,
+                "face": "happy",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

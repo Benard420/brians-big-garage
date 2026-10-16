@@ -1,0 +1,1687 @@
+{
+  "series_id": "bbg",
+  "series_title": "Brian's Big Garage",
+  "episode_id": "S01E02",
+  "episode_number": 2,
+  "revision": "1.0",
+  "title": "The Mystery of the Missing Wheels",
+  "hook": "Every spare wheel has vanished the night before Junior Build Day — is there a wheel thief in the garage?",
+  "reading_minutes": 7,
+  "core_lesson": "Know what you have before you build: count it, sort it, label it.",
+  "new_terms": [
+    "inventory",
+    "spare"
+  ],
+  "adult_safety_note": "Children only handle cardboard, paper straws and plastic toy wheels. Auntie Ada (an adult) uses the scissors and pokes the axle holes.",
+  "localisation_key_prefix": "s01e02",
+  "editorial_status": "draft",
+  "learning_objectives": [
+    {
+      "topic": "Number",
+      "goal": "Four groups of four make 16 (4 + 4 + 4 + 4 = 16, 4 × 4 = 16)."
+    },
+    {
+      "topic": "Number",
+      "goal": "Take away to find what is left: 16 − 12 = 4 spare wheels."
+    },
+    {
+      "topic": "Engineering",
+      "goal": "An inventory is a count of the parts you have; check it before you build."
+    },
+    {
+      "topic": "Organising",
+      "goal": "Sorting and picture labels make parts easy to find and count again."
+    },
+    {
+      "topic": "Leadership",
+      "goal": "Look for clues before blaming anyone; give each person a job that fits them."
+    },
+    {
+      "topic": "Safety",
+      "goal": "A grown-up handles scissors and poking holes; children assemble the cardboard cars."
+    }
+  ],
+  "talk_together": [
+    "Brian thought there was a wheel thief. What did the clues really show?",
+    "What could you sort into groups at home — socks, spoons, toy cars? How many groups?",
+    "Why do picture labels help Marcus, who can't read yet?"
+  ],
+  "complete": {
+    "recall": "Before you build: count it, sort it, label it!",
+    "question": "Help a grown-up make an inventory of one drawer or toy box. How many of each thing did you find?"
+  },
+  "season": [
+    {
+      "ep": "01",
+      "title": "The Car That Wouldn't Move",
+      "concept": "wheels, axles, friction",
+      "link": "S01E01.html"
+    },
+    {
+      "ep": "02",
+      "title": "The Mystery of the Missing Wheels",
+      "concept": "parts and inventory",
+      "available": true
+    },
+    {
+      "ep": "03",
+      "title": "The Great Ramp Race",
+      "concept": "gravity and fair tests",
+      "link": "S01E03.html"
+    },
+    {
+      "ep": "04",
+      "title": "Inside the Mighty Engine",
+      "concept": "energy and propulsion"
+    },
+    {
+      "ep": "05",
+      "title": "The Time-Travel Garage",
+      "concept": "transport history"
+    },
+    {
+      "ep": "06",
+      "title": "Red Means Stop!",
+      "concept": "traffic infrastructure"
+    },
+    {
+      "ep": "07",
+      "title": "The Battery Mystery",
+      "concept": "simple circuits"
+    },
+    {
+      "ep": "08",
+      "title": "The Big Garage Mix-Up",
+      "concept": "scheduling"
+    },
+    {
+      "ep": "09",
+      "title": "Jasmine's Brilliant Idea",
+      "concept": "design iteration"
+    },
+    {
+      "ep": "10",
+      "title": "The Junior Engineer Challenge",
+      "concept": "full design process"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "ch2-stock",
+      "kind": "single_choice",
+      "label": "Stock count",
+      "prompt": "Marcus made 4 groups. Each group has 4 wheels. How many wheels?",
+      "visual": {
+        "groups": 4,
+        "per": 4
+      },
+      "options": [
+        {
+          "id": "8",
+          "text": "8"
+        },
+        {
+          "id": "12",
+          "text": "12"
+        },
+        {
+          "id": "16",
+          "text": "16"
+        },
+        {
+          "id": "20",
+          "text": "20"
+        }
+      ],
+      "answer": "16",
+      "hint": "Count one group at a time: 4, 8 … keep adding 4.",
+      "explain": "4 + 4 + 4 + 4 = 16. Four groups of four is 4 × 4 = 16.",
+      "retry": true
+    },
+    {
+      "id": "ch2-spare",
+      "kind": "single_choice",
+      "label": "Spare wheels",
+      "prompt": "We have 16 wheels. The three cars use 12. How many wheels are spare?",
+      "options": [
+        {
+          "id": "2",
+          "text": "2"
+        },
+        {
+          "id": "4",
+          "text": "4"
+        },
+        {
+          "id": "6",
+          "text": "6"
+        },
+        {
+          "id": "8",
+          "text": "8"
+        }
+      ],
+      "answer": "4",
+      "hint": "Three groups of four go on the cars. How many wheels are in the group that's left?",
+      "explain": "16 − 12 = 4. One whole group of four is spare.",
+      "retry": true
+    },
+    {
+      "id": "ch2-store",
+      "kind": "single_choice",
+      "label": "Tidy-up plan",
+      "prompt": "Where should the spare wheels go?",
+      "options": [
+        {
+          "id": "floor",
+          "text": "Leave them on the floor."
+        },
+        {
+          "id": "bin",
+          "text": "Back in the labelled bin."
+        },
+        {
+          "id": "hide",
+          "text": "Hide them in Marcus's truck."
+        }
+      ],
+      "answer": "bin",
+      "hint": "Where will the team find them quickly next time?",
+      "explain": "Labelled bins make parts easy to find — and easy to count again.",
+      "retry": true
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        {
+          "panel_id": "S01E02-P01-A",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Night. Marcus stands by the empty spare-wheels box; Brian and Jasmine rush in. One wheel peeks out from under the table.",
+          "characters": [
+            "Marcus",
+            "Brian",
+            "Jasmine"
+          ],
+          "caption": "The night before Junior Build Day…",
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Wheels… GONE!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "All of them?!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "In the evening garage, Marcus throws his arms up beside an empty cardboard box. Brian and Jasmine rush in. A single toy wheel peeks out from under a small table.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus jumps",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "problem",
+            "clue"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "night",
+            "props": [
+              {
+                "type": "box",
+                "x": 250,
+                "empty": true
+              },
+              {
+                "type": "table",
+                "x": 345
+              },
+              {
+                "type": "wheelpile",
+                "x": 350,
+                "y": 274,
+                "n": 1
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 60,
+                "face": "wow",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 120,
+                "face": "think",
+                "look": 1
+              },
+              {
+                "who": "marcus",
+                "x": 180,
+                "face": "wow",
+                "armL": "up",
+                "armR": "up",
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E02-P01-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian jumps to a conclusion; Jasmine isn't so sure.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Someone took them! There's a wheel thief!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "Hmm. Or maybe the wheels went somewhere."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian points dramatically into the dark, sure there is a thief. Jasmine taps her chin, thinking.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "assumption"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "night",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 130,
+                "face": "determined",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 280,
+                "face": "think",
+                "armR": "hold",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "panels": [
+        {
+          "panel_id": "S01E02-P02-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Next morning. Brian explains the build plan beside three toy model cars.",
+          "characters": [
+            "Brian"
+          ],
+          "caption": "Next morning. The plan: build three cardboard cars for Junior Build Day.",
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Three cars, four wheels each. That's twelve wheels!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian points at three toy model cars lined up on the floor. They are the models for the cardboard cars.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "number",
+            "planning"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "cars3",
+                "x": 260
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "determined",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E02-P02-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian worries. In the corner, Marcus giggles beside his toy truck — a wheel sits in its bed.",
+          "characters": [
+            "Brian",
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "And we have zero wheels!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian holds his head, worried. Behind him, Marcus giggles behind his hand next to his yellow toy truck, which is carrying two wheels.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus wiggles",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "clue"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "truck",
+                "x": 330,
+                "load": 2
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 120,
+                "face": "sad",
+                "armL": "up",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "marcus",
+                "x": 260,
+                "face": "laugh",
+                "armR": "hold",
+                "flip": true,
+                "anim": "shake"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "panels": [
+        {
+          "panel_id": "S01E02-P03-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Auntie Ada arrives and calmly suggests looking for clues.",
+          "characters": [
+            "Ada",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Before we blame anyone, let's look for clues."
+            },
+            {
+              "speaker": "Brian",
+              "text": "Okay… detective mode!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada walks in and kneels calmly. Brian nods, ready to be a detective.",
+          "motion": {
+            "type": "limited",
+            "description": "Ada slides in",
+            "duration_ms": 600
+          },
+          "lesson_tags": [
+            "troubleshooting",
+            "leadership"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "determined",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 295,
+                "face": "happy",
+                "armR": "point",
+                "flip": true,
+                "anim": "slidein"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E02-P03-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Jasmine spots the wheel under the table through her magnifying glass.",
+          "characters": [
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "Look! One wheel, under the table!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine points under the small table, where one toy wheel lies. Her magnifying glass hovers over it.",
+          "motion": {
+            "type": "limited",
+            "description": "Jasmine bobs",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "observation",
+            "clue"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "table",
+                "x": 270
+              },
+              {
+                "type": "wheelpile",
+                "x": 272,
+                "y": 274,
+                "n": 1
+              },
+              {
+                "type": "magnifier",
+                "x": 262,
+                "y": 255,
+                "r": 18,
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 150,
+                "face": "big",
+                "armR": "point",
+                "look": 1,
+                "anim": "bounce"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "panels": [
+        {
+          "panel_id": "S01E02-P04-A",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "A trail of single wheels across the floor, leading off to the right.",
+          "characters": [
+            "Jasmine",
+            "Brian"
+          ],
+          "caption": "A trail of wheels…",
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "They're in a line, like a road!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "Let's follow it!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Three toy wheels lie in a line across the floor, leading out of the picture. Jasmine points along the trail and Brian follows.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "observation",
+            "pattern"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "wheelpile",
+                "x": 200,
+                "y": 278,
+                "n": 1
+              },
+              {
+                "type": "wheelpile",
+                "x": 270,
+                "y": 282,
+                "n": 1
+              },
+              {
+                "type": "wheelpile",
+                "x": 340,
+                "y": 286,
+                "n": 1
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 70,
+                "face": "determined",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "brian",
+                "x": 135,
+                "face": "big",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E02-P04-B",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "The trail ends at Marcus's corner: his truck and neat piles of wheels.",
+          "characters": [
+            "Marcus"
+          ],
+          "caption": "…all the way to Marcus's corner.",
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "My wheel shop!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "In the corner, Marcus proudly shows off his 'wheel shop': his toy truck and sixteen wheels arranged in four neat clusters.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus hops",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "reveal"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "truck",
+                "x": 80,
+                "load": 0
+              },
+              {
+                "type": "wheelpile",
+                "x": 215,
+                "y": 280,
+                "n": 16,
+                "s": 1.2
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 340,
+                "face": "big",
+                "armL": "up",
+                "armR": "point",
+                "flip": true,
+                "anim": "bounce"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "panels": [
+        {
+          "panel_id": "S01E02-P05-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian is surprised; Marcus explains proudly.",
+          "characters": [
+            "Brian",
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Marcus! You took the wheels?"
+            },
+            {
+              "speaker": "Marcus",
+              "text": "Me sorting! Fours!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian looks surprised. Marcus beams and points at his wheel groups.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "reveal"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "wheelpile",
+                "x": 200,
+                "y": 284,
+                "n": 16,
+                "s": 1.3
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 70,
+                "face": "wow",
+                "look": 1
+              },
+              {
+                "who": "marcus",
+                "x": 330,
+                "face": "big",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E02-P05-B",
+          "shot": "close-up",
+          "location": "garage",
+          "visual": "Close-up: the wheels sit in four tidy groups of four.",
+          "characters": [
+            "Jasmine"
+          ],
+          "caption": "Marcus put the wheels in groups of four.",
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "He made them easy to count!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Close-up of the floor: sixteen toy wheels sorted into four groups, each with four wheels, circled by dashed rings.",
+          "motion": {
+            "type": "limited",
+            "description": "group rings pop",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "number",
+            "sorting"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "closeup",
+            "props": [
+              {
+                "type": "wheelpile",
+                "x": 200,
+                "y": 236,
+                "n": 16,
+                "s": 1.9,
+                "ring": true,
+                "anim": "pop"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "panels": [
+        {
+          "panel_id": "S01E02-P06-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada introduces the word inventory.",
+          "characters": [
+            "Ada"
+          ],
+          "caption": "New word: INVENTORY — a count of the parts you have.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Counting what we have is called an inventory. Engineers do it before they build."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada points at the four groups of wheels on the floor and smiles.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "inventory",
+            "vocabulary"
+          ],
+          "safety_status": "pending_review",
+          "fact": {
+            "title": "Why do engineers take inventory?",
+            "text": "Car factories count every part before they start building, so they don't run out halfway. Even a small toy build goes better when you know what you have first."
+          },
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "wheelpile",
+                "x": 140,
+                "y": 282,
+                "n": 16,
+                "ring": true,
+                "s": 1.25
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 290,
+                "face": "happy",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E02-P06-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian poses the counting question to Marcus.",
+          "characters": [
+            "Brian",
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Four groups of four. How many wheels is that?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian kneels beside Marcus and the wheel groups, thinking hard.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "number"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch2-stock",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "wheelpile",
+                "x": 200,
+                "y": 284,
+                "n": 16,
+                "ring": true,
+                "s": 1.3
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 60,
+                "face": "think",
+                "armR": "hold",
+                "look": 1
+              },
+              {
+                "who": "marcus",
+                "x": 345,
+                "face": "happy",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "panels": [
+        {
+          "panel_id": "S01E02-P07-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Each group gets a running total badge: 4, 8, 12, 16.",
+          "characters": [
+            "Marcus",
+            "Brian"
+          ],
+          "caption": "4 + 4 + 4 + 4 = 16",
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "SIXTEEN!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "We need twelve. Do we have enough?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Number badges float over the four wheel groups: 4, 8, 12, 16. Marcus cheers; Brian wonders if it's enough.",
+          "motion": {
+            "type": "limited",
+            "description": "badges pop",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "number"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "wheelpile",
+                "x": 200,
+                "y": 284,
+                "n": 16,
+                "ring": true,
+                "badges": true,
+                "anim": "pop",
+                "s": 1.3
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 345,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "flip": true,
+                "anim": "bounce"
+              },
+              {
+                "who": "brian",
+                "x": 60,
+                "face": "think",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E02-P07-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Jasmine realises there are some left over.",
+          "characters": [
+            "Jasmine",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "Yes! And some left over."
+            },
+            {
+              "speaker": "Brian",
+              "text": "So how many wheels are spare?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine raises her hand, excited. Brian looks at the wheel groups, counting.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "number",
+            "vocabulary"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch2-spare",
+          "fact": {
+            "title": "New word: spare",
+            "text": "Spare means extra — parts you have left over after the job. Spares are handy if something breaks or goes missing."
+          },
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "wheelpile",
+                "x": 200,
+                "y": 284,
+                "n": 16,
+                "ring": true,
+                "s": 1.3
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 70,
+                "face": "big",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "brian",
+                "x": 340,
+                "face": "think",
+                "armR": "hold",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "panels": [
+        {
+          "panel_id": "S01E02-P08-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian kneels and apologises to Marcus, giving him a new title.",
+          "characters": [
+            "Brian",
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Sorry, Marcus. You're not a thief — you're our parts manager!"
+            },
+            {
+              "speaker": "Marcus",
+              "text": "Parts manager!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian kneels down to Marcus and says sorry. Marcus throws his arms up, delighted with his new job.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus bounces",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "leadership"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "sparkles",
+                "x": 260,
+                "y": 80
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 130,
+                "face": "sorry",
+                "armR": "hold",
+                "look": 1,
+                "y": 284
+              },
+              {
+                "who": "marcus",
+                "x": 260,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "flip": true,
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E02-P08-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian asks Jasmine to draw labels for two empty bins.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Jasmine, can you draw labels for the bins? Marcus can sort."
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "Big wheels, small wheels!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian gestures to two empty see-through bins. Jasmine holds up her crayon, ready to draw.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "delegation",
+            "organising"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "bins",
+                "x": 300,
+                "fill": [
+                  0,
+                  0
+                ]
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 70,
+                "face": "happy",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 170,
+                "face": "big",
+                "armR": "up",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "panels": [
+        {
+          "panel_id": "S01E02-P09-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "The bins now have picture labels and Marcus sorts wheels into them.",
+          "characters": [
+            "Marcus",
+            "Jasmine"
+          ],
+          "caption": "Jasmine draws picture labels. Marcus sorts.",
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Big here. Small here!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Two see-through bins with picture labels — a big wheel and a small wheel. Marcus drops wheels into the right bins while Jasmine watches proudly.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "organising",
+            "sorting"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "bins",
+                "x": 290,
+                "fill": [
+                  8,
+                  8
+                ]
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 80,
+                "face": "happy",
+                "armR": "hold",
+                "look": 1
+              },
+              {
+                "who": "marcus",
+                "x": 175,
+                "face": "big",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E02-P09-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada cuts cardboard with scissors while the children watch from a safe spot.",
+          "characters": [
+            "Ada",
+            "Brian"
+          ],
+          "caption": "Grown-ups handle the scissors.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "I'll cut the cardboard and poke the holes. Scissors are my job."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada holds a pair of scissors and a sheet of cardboard. Brian watches from a step back.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "safety"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "scissors",
+                "x": 268,
+                "y": 160,
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 90,
+                "face": "happy",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 240,
+                "face": "determined",
+                "armR": "hold",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "panels": [
+        {
+          "panel_id": "S01E02-P10-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian and Jasmine push straw axles and wheels onto the cardboard cars.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Straw axle in… wheels on… done!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "And car number three!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian and Jasmine kneel beside two finished cardboard cars with paper-straw axles and toy wheels.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "building"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 240,
+                "color": "#c9955a"
+              },
+              {
+                "type": "car",
+                "x": 330,
+                "color": "#c9955a"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 70,
+                "face": "determined",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 150,
+                "face": "big",
+                "armR": "up",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E02-P10-B",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Three cardboard cars roll forward together.",
+          "characters": [],
+          "caption": "Three cars. Twelve wheels.",
+          "dialogue": [],
+          "sfx": "ROLL",
+          "alt_text": "Three cardboard cars with toy wheels roll forward together across the floor. ROLL!",
+          "motion": {
+            "type": "limited",
+            "description": "cars roll",
+            "duration_ms": 700
+          },
+          "lesson_tags": [
+            "number",
+            "building"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 110,
+                "color": "#c9955a",
+                "spin": "all",
+                "anim": "rollshort"
+              },
+              {
+                "type": "car",
+                "x": 210,
+                "y": 278,
+                "color": "#c9955a",
+                "spin": "all",
+                "anim": "rollshort"
+              },
+              {
+                "type": "car",
+                "x": 310,
+                "color": "#c9955a",
+                "spin": "all",
+                "anim": "rollshort"
+              }
+            ],
+            "sfx": [
+              {
+                "text": "ROLL!",
+                "x": 200,
+                "y": 150,
+                "rot": -6,
+                "size": 46
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "panels": [
+        {
+          "panel_id": "S01E02-P11-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Marcus loads four spare wheels into his truck and drives it to the bins.",
+          "characters": [
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Spare wheels… DELIVERY!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus pushes his toy truck, loaded with four spare wheels, toward the labelled bins.",
+          "motion": {
+            "type": "limited",
+            "description": "truck rolls",
+            "duration_ms": 700
+          },
+          "lesson_tags": [
+            "organising",
+            "humour"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch2-store",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "truck",
+                "x": 210,
+                "load": 4,
+                "spin": true,
+                "anim": "rollshort"
+              },
+              {
+                "type": "bins",
+                "x": 330,
+                "fill": [
+                  8,
+                  8
+                ]
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 100,
+                "face": "big",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E02-P11-B",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Ada sums up beside the tidy bins; the children cheer.",
+          "characters": [
+            "Ada",
+            "Brian",
+            "Jasmine",
+            "Marcus"
+          ],
+          "caption": "The spare wheels go back in the labelled bin.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Know what you have before you build. That's how engineers plan."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada smiles beside the tidy labelled bins. Brian, Jasmine and Marcus cheer.",
+          "motion": {
+            "type": "limited",
+            "description": "cheer bounce",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "inventory",
+            "planning"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "bins",
+                "x": 235,
+                "fill": [
+                  8,
+                  8
+                ]
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 50,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "anim": "bounce"
+              },
+              {
+                "who": "jasmine",
+                "x": 115,
+                "face": "laugh",
+                "armR": "up"
+              },
+              {
+                "who": "marcus",
+                "x": 165,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "anim": "bounce"
+              },
+              {
+                "who": "ada",
+                "x": 330,
+                "face": "happy",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "panels": [
+        {
+          "panel_id": "S01E02-P12-A",
+          "shot": "three-shot",
+          "location": "garage",
+          "visual": "The siblings chant their new rule.",
+          "characters": [
+            "Brian",
+            "Marcus",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Count it. Sort it. Label it!"
+            },
+            {
+              "speaker": "Marcus",
+              "text": "Then BUILD it!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian, Jasmine and Marcus laugh together, holding up their cardboard cars.",
+          "motion": {
+            "type": "limited",
+            "description": "sparkles pop",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "inventory",
+            "teamwork"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "sparkles",
+                "x": 200,
+                "y": 80
+              },
+              {
+                "type": "car",
+                "x": 320,
+                "s": 0.8,
+                "color": "#c9955a"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 90,
+                "face": "big",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 170,
+                "face": "laugh",
+                "armL": "up",
+                "armR": "up"
+              },
+              {
+                "who": "marcus",
+                "x": 245,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "flip": true,
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E02-P12-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Jasmine sets a cardboard car on a ramp; Brian grins.",
+          "characters": [
+            "Jasmine",
+            "Brian"
+          ],
+          "caption": "Next time: The Great Ramp Race!",
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "Which car will roll the farthest?"
+            },
+            {
+              "speaker": "Brian",
+              "text": "Only one way to find out — a fair test!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine places a cardboard car at the top of a cardboard ramp. Brian grins, ready for the next challenge.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "teaser"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "ramp",
+                "x": 220
+              },
+              {
+                "type": "board",
+                "x": 260,
+                "w": 120
+              },
+              {
+                "type": "car",
+                "x": 196,
+                "y": 252,
+                "s": 0.8,
+                "color": "#c9955a",
+                "tilt": 30
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 110,
+                "face": "think",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "brian",
+                "x": 340,
+                "face": "big",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

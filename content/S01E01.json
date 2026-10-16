@@ -1,0 +1,3639 @@
+{
+  "series_id": "bbg",
+  "series_title": "Brian's Big Garage",
+  "episode_id": "S01E01",
+  "episode_number": 1,
+  "revision": "1.0",
+  "title": "The Car That Wouldn't Move",
+  "hook": "Bolt won't budge before the Big Garage Race — can Brian, Jasmine and Marcus find out why?",
+  "reading_minutes": 12,
+  "core_lesson": "Engineers test one possible cause at a time — and listen to every teammate.",
+  "new_terms": [
+    "axle",
+    "friction",
+    "fair test"
+  ],
+  "adult_safety_note": "Children only handle toys, paper and cardboard. Auntie Ada (an adult) uses the tweezers and handles the battery-powered toy's switch tests.",
+  "localisation_key_prefix": "s01e01",
+  "editorial_status": "draft",
+  "learning_objectives": [
+    {
+      "topic": "Number",
+      "goal": "Four wheels per car; three groups of four make 12 (4 + 4 + 4 = 12, 3 × 4 = 12)."
+    },
+    {
+      "topic": "System",
+      "goal": "Battery, motor, axle and wheels each do a different job."
+    },
+    {
+      "topic": "Troubleshooting",
+      "goal": "Test one possible cause at a time instead of guessing."
+    },
+    {
+      "topic": "Motion",
+      "goal": "Friction from a fluffy surface slows a rolling toy more than a smooth board."
+    },
+    {
+      "topic": "Leadership",
+      "goal": "Listening to Jasmine and Marcus leads to a better plan."
+    },
+    {
+      "topic": "Safety",
+      "goal": "Toys and paper models only; an adult handles tools and batteries."
+    }
+  ],
+  "talk_together": [
+    "What clue did Jasmine notice that Brian missed?",
+    "Find something at home that rolls. Does it roll farther on a rug or on a smooth floor?",
+    "Brian said sorry. Why do you think that helped the team?"
+  ],
+  "complete": {
+    "recall": "Engineers test one thing at a time — and listen to everyone!",
+    "question": "Where at home could you run your own fair test with a toy car? (Ask a grown-up to help.)"
+  },
+  "season": [
+    {
+      "ep": "01",
+      "title": "The Car That Wouldn't Move",
+      "concept": "wheels, axles, friction",
+      "available": true
+    },
+    {
+      "ep": "02",
+      "title": "The Mystery of the Missing Wheels",
+      "concept": "parts and inventory",
+      "link": "S01E02.html"
+    },
+    {
+      "ep": "03",
+      "title": "The Great Ramp Race",
+      "concept": "gravity and fair tests"
+    },
+    {
+      "ep": "04",
+      "title": "Inside the Mighty Engine",
+      "concept": "energy and propulsion"
+    },
+    {
+      "ep": "05",
+      "title": "The Time-Travel Garage",
+      "concept": "transport history"
+    },
+    {
+      "ep": "06",
+      "title": "Red Means Stop!",
+      "concept": "traffic infrastructure"
+    },
+    {
+      "ep": "07",
+      "title": "The Battery Mystery",
+      "concept": "simple circuits"
+    },
+    {
+      "ep": "08",
+      "title": "The Big Garage Mix-Up",
+      "concept": "scheduling"
+    },
+    {
+      "ep": "09",
+      "title": "Jasmine's Brilliant Idea",
+      "concept": "design iteration"
+    },
+    {
+      "ep": "10",
+      "title": "The Junior Engineer Challenge",
+      "concept": "full design process"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "ch1-clue",
+      "kind": "spot",
+      "label": "Spot the clue",
+      "prompt": "Tap the part of Bolt that is stuck.",
+      "hotspots": [
+        {
+          "id": "switch",
+          "label": "The switch",
+          "x": 52,
+          "y": 36
+        },
+        {
+          "id": "front",
+          "label": "The front wheel",
+          "x": 66,
+          "y": 73
+        },
+        {
+          "id": "axle",
+          "label": "The back axle",
+          "x": 36,
+          "y": 73
+        }
+      ],
+      "answer": "axle",
+      "hint": "Remember the push test: which wheels stayed still? Look closely there.",
+      "explain": "A thread was wrapped around the back axle, so the back wheels couldn't turn. Finding the real cause beats guessing!",
+      "retry": true
+    },
+    {
+      "id": "ch1-plan",
+      "kind": "single_choice",
+      "label": "Choose a plan",
+      "prompt": "Brian wants to test Bolt again. What is the best plan?",
+      "options": [
+        {
+          "id": "solo",
+          "text": "Brian does every job by himself."
+        },
+        {
+          "id": "team",
+          "text": "Everyone gets a job that fits them."
+        },
+        {
+          "id": "skip",
+          "text": "Skip the test and just race."
+        }
+      ],
+      "answer": "team",
+      "hint": "Think about what Jasmine and Marcus are good at. Who spotted the clues?",
+      "explain": "Great leaders share the jobs. Jasmine draws the chart, Marcus counts, Brian sets the start line — and Auntie Ada checks safety.",
+      "retry": true
+    },
+    {
+      "id": "ch1-wheels",
+      "kind": "single_choice",
+      "label": "Count the wheels",
+      "prompt": "Three cars need four wheels each. How many wheels?",
+      "visual": "cars3",
+      "options": [
+        {
+          "id": "7",
+          "text": "7"
+        },
+        {
+          "id": "10",
+          "text": "10"
+        },
+        {
+          "id": "12",
+          "text": "12"
+        },
+        {
+          "id": "16",
+          "text": "16"
+        }
+      ],
+      "answer": "12",
+      "hint": "Let's count together: one car has 4 wheels. Add 4 for each car.",
+      "explain": "4 + 4 + 4 = 12. Three groups of four is 3 × 4 = 12.",
+      "retry": true
+    },
+    {
+      "id": "ch1-predict",
+      "kind": "prediction",
+      "label": "Make a prediction",
+      "prompt": "Where will Bolt roll farther: on the fluffy mat or the smooth board?",
+      "options": [
+        {
+          "id": "mat",
+          "text": "The fluffy mat"
+        },
+        {
+          "id": "board",
+          "text": "The smooth board"
+        }
+      ],
+      "explain": "Scientists make a prediction, then test it. Keep reading to find out what happens!"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        {
+          "panel_id": "S01E01-P01-A",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Brian grins at Bolt waiting on a taped start line.",
+          "characters": [
+            "Brian"
+          ],
+          "caption": "Sunbeam Junction. Saturday morning in the Big Garage.",
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Ready, Bolt? Today we practise for the Big Garage Race!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian smiles and points at Bolt, a small orange toy car, waiting beside a taped start line in a sunny garage.",
+          "motion": {
+            "type": "limited",
+            "description": "small wheel wobble",
+            "duration_ms": 450
+          },
+          "lesson_tags": [
+            "observation"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "startline",
+                "x": 236
+              },
+              {
+                "type": "car",
+                "x": 270,
+                "anim": "wobble"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 130,
+                "face": "big",
+                "armR": "point",
+                "armL": "hip"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P01-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Jasmine draws a checkered finish flag at a small table.",
+          "characters": [
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "I'm drawing the finish flag. Checkers, like a real race!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine kneels at a low table, drawing a black-and-white checkered flag with a crayon.",
+          "motion": {
+            "type": "limited",
+            "description": "Jasmine bobs happily",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "observation"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "table",
+                "x": 230
+              },
+              {
+                "type": "flagpaper",
+                "x": 232,
+                "y": 222
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 150,
+                "face": "happy",
+                "armR": "hold",
+                "look": 1,
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P01-C",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Marcus lines up three toy cars in a row.",
+          "characters": [
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Car, car, car! Three cars!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Little Marcus points proudly at three toy cars — teal, purple and yellow — lined up on the floor.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus hops",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "number"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "cars3",
+                "x": 250
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 130,
+                "face": "big",
+                "armR": "point",
+                "armL": "up",
+                "anim": "bounce"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "panels": [
+        {
+          "panel_id": "S01E01-P02-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Brian flips Bolt's switch on.",
+          "characters": [
+            "Brian"
+          ],
+          "caption": "Bolt is a battery-powered toy. Its little motor turns the back wheels.",
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Switch on… three, two, one… GO!"
+            }
+          ],
+          "sfx": "CLICK",
+          "alt_text": "Brian reaches toward Bolt and flips the small switch on its roof. A CLICK sound pops out.",
+          "motion": {
+            "type": "limited",
+            "description": "sound effect pops",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "system"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "startline",
+                "x": 236
+              },
+              {
+                "type": "car",
+                "x": 262,
+                "sw": "on"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 150,
+                "face": "determined",
+                "armR": "point",
+                "look": 1
+              }
+            ],
+            "sfx": [
+              {
+                "text": "CLICK",
+                "x": 270,
+                "y": 150,
+                "rot": -8,
+                "size": 34
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P02-B",
+          "shot": "close-up",
+          "location": "garage",
+          "visual": "Bolt shakes and hums, but its wheels stay still.",
+          "characters": [],
+          "caption": "Bolt hums… but it doesn't move.",
+          "dialogue": [],
+          "sfx": "WHIRRR",
+          "alt_text": "Close-up of Bolt shaking in place with a whirring sound. Its wheels are not moving.",
+          "motion": {
+            "type": "limited",
+            "description": "car shakes in place",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "observation"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "closeup",
+            "props": [
+              {
+                "type": "car",
+                "x": 200,
+                "y": 238,
+                "s": 2.6,
+                "sw": "on",
+                "anim": "shake",
+                "thread": true
+              }
+            ],
+            "sfx": [
+              {
+                "text": "WHIRRR…",
+                "x": 200,
+                "y": 70,
+                "rot": -4,
+                "size": 40
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P02-C",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Brian throws up his hands. Jasmine and Marcus watch.",
+          "characters": [
+            "Brian",
+            "Jasmine",
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Bolt won't go! And the race is in one week!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian throws both hands in the air, shocked. Jasmine and Marcus look on from the side. Bolt sits still.",
+          "motion": {
+            "type": "limited",
+            "description": "Brian jumps in surprise",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "problem"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 210,
+                "sw": "on"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 120,
+                "face": "wow",
+                "armL": "up",
+                "armR": "up",
+                "anim": "bounce"
+              },
+              {
+                "who": "jasmine",
+                "x": 285,
+                "face": "think",
+                "look": -1
+              },
+              {
+                "who": "marcus",
+                "x": 345,
+                "face": "wow",
+                "look": -1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "panels": [
+        {
+          "panel_id": "S01E01-P03-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Brian imagines a dead battery.",
+          "characters": [
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "The battery must be dead. We need a new one!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian frowns with his hand on his chin. A thought bubble shows a battery crossed out.",
+          "motion": {
+            "type": "limited",
+            "description": "thought bubble pops in",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "assumption"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "thought",
+                "x": 270,
+                "y": 85,
+                "content": "battery-x",
+                "anim": "pop"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 160,
+                "face": "think",
+                "armR": "hold",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P03-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Jasmine raises her hand. Brian waves her off.",
+          "characters": [
+            "Jasmine",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "Wait! I heard a whirr. Doesn't that mean the battery works?"
+            },
+            {
+              "speaker": "Brian",
+              "text": "No time, Jasmine. I know cars!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine raises her hand with a question. Brian stands with his hand on his hip, not listening.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "leadership"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 120,
+                "face": "think",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "brian",
+                "x": 270,
+                "face": "determined",
+                "armL": "hip",
+                "armR": "hip",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P03-C",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Marcus points at Bolt's wheel. Brian ignores him.",
+          "characters": [
+            "Marcus",
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Wheel! Wheel!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "Not now, Marcus."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus hops and points at Bolt's back wheel. Brian looks away. Jasmine looks sad.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus hops",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "leadership",
+            "observation"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 210,
+                "thread": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 140,
+                "face": "big",
+                "armR": "point",
+                "anim": "bounce"
+              },
+              {
+                "who": "brian",
+                "x": 300,
+                "face": "determined",
+                "armL": "hip",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 60,
+                "face": "sad",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "panels": [
+        {
+          "panel_id": "S01E01-P04-A",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Auntie Ada walks in and waves.",
+          "characters": [
+            "Ada",
+            "Brian"
+          ],
+          "caption": "Auntie Ada is an automotive engineer. She helps design real cars.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "What a busy garage! What's the problem, engineers?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada, tall in navy overalls and an amber headwrap with goggles, waves as she walks into the garage. Brian turns to her.",
+          "motion": {
+            "type": "limited",
+            "description": "Ada slides in",
+            "duration_ms": 600
+          },
+          "lesson_tags": [
+            "mentor"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "sad",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 300,
+                "face": "happy",
+                "armR": "wave",
+                "flip": true,
+                "anim": "slidein"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P04-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian explains; Ada thinks.",
+          "characters": [
+            "Brian",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Bolt is broken. The battery's dead, I'm sure!"
+            },
+            {
+              "speaker": "Ada",
+              "text": "Maybe. How could we find out for sure?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian points at Bolt, looking upset. Auntie Ada kneels nearby with a thoughtful look.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "troubleshooting"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 200
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "sad",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 300,
+                "face": "think",
+                "armL": "hip",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P04-C",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada holds up a checklist of possible causes.",
+          "characters": [
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Engineers test one possible cause at a time."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada holds up a clipboard checklist with three pictures: a wheel, an axle rod and a battery. None are ticked yet.",
+          "motion": {
+            "type": "limited",
+            "description": "checklist pops",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "troubleshooting"
+          ],
+          "safety_status": "pending_review",
+          "fact": {
+            "title": "What is troubleshooting?",
+            "text": "Troubleshooting means finding what's wrong by checking possible causes one by one. If you change lots of things at once, you can't tell which one fixed it!"
+          },
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "checklist",
+                "x": 230,
+                "y": 120,
+                "checks": [
+                  false,
+                  false,
+                  false
+                ],
+                "anim": "pop",
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 170,
+                "face": "happy",
+                "armR": "hold",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "panels": [
+        {
+          "panel_id": "S01E01-P05-A",
+          "shot": "close-up",
+          "location": "garage",
+          "visual": "Close-up of Bolt with the back axle glowing.",
+          "characters": [
+            "Ada"
+          ],
+          "caption": "New word: AXLE — the rod that joins two wheels so they turn together.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "See this rod? That's an axle. Bolt's motor spins the back axle."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "A big close-up of Bolt. The rod joining the back wheels glows with a highlight circle.",
+          "motion": {
+            "type": "limited",
+            "description": "highlight pulses",
+            "duration_ms": 700
+          },
+          "lesson_tags": [
+            "system",
+            "vocabulary"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "closeup",
+            "props": [
+              {
+                "type": "car",
+                "x": 200,
+                "y": 238,
+                "s": 2.6,
+                "glow": true,
+                "thread": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P05-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian gets it; Ada traces the energy path.",
+          "characters": [
+            "Brian",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "So the motor turns the axle, and the axle turns the wheels!"
+            },
+            {
+              "speaker": "Ada",
+              "text": "Exactly. Battery, motor, axle, wheels."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian's face lights up with understanding. Auntie Ada smiles and nods. An energy path drawing floats between them: battery, motor, axle, wheels.",
+          "motion": {
+            "type": "limited",
+            "description": "energy path appears",
+            "duration_ms": 600
+          },
+          "lesson_tags": [
+            "system"
+          ],
+          "safety_status": "pending_review",
+          "fact": {
+            "title": "Bolt's energy path (simplified toy)",
+            "text": "Battery → wires and switch → motor → axle → wheels. This is a simplified toy diagram. Real electric cars add power electronics and many more systems, and not every car works the same way."
+          },
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "energypath",
+                "x": 200,
+                "y": 70,
+                "anim": "pop"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "big",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 300,
+                "face": "happy",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P05-C",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada switches Bolt off for the first test.",
+          "characters": [
+            "Ada",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "First test: switch OFF. Then gently push Bolt and watch the wheels."
+            },
+            {
+              "speaker": "Brian",
+              "text": "A push test!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada switches Bolt off. The switch on its roof turns grey. Brian kneels, ready to help.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "troubleshooting",
+            "safety"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 205,
+                "sw": "off"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 105,
+                "face": "determined",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 300,
+                "face": "happy",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "panels": [
+        {
+          "panel_id": "S01E01-P06-A",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Brian gives Bolt a gentle push; it scrapes forward a little.",
+          "characters": [
+            "Brian"
+          ],
+          "caption": "Test 1: switch off, gentle push.",
+          "dialogue": [],
+          "sfx": "SCRRK",
+          "alt_text": "Brian gently pushes Bolt. It scrapes forward only a tiny bit with a SCRRK sound.",
+          "motion": {
+            "type": "limited",
+            "description": "car scrapes a short way",
+            "duration_ms": 700
+          },
+          "lesson_tags": [
+            "troubleshooting"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 230,
+                "sw": "off",
+                "thread": true,
+                "anim": "rollshort"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 140,
+                "face": "determined",
+                "armR": "point",
+                "look": 1
+              }
+            ],
+            "sfx": [
+              {
+                "text": "SCRRK!",
+                "x": 290,
+                "y": 175,
+                "rot": 6,
+                "size": 30
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P06-B",
+          "shot": "close-up",
+          "location": "garage",
+          "visual": "Front wheel spins; back wheel stays still. A thin thread is visible near the back wheel.",
+          "characters": [],
+          "caption": "The front wheels spin. The back wheels stay still.",
+          "dialogue": [],
+          "sfx": "",
+          "alt_text": "Close-up of Bolt. The front wheel spins. The back wheel doesn't move. A thin red thread can be seen near the back wheel.",
+          "motion": {
+            "type": "limited",
+            "description": "front wheel spins",
+            "duration_ms": 700
+          },
+          "lesson_tags": [
+            "observation",
+            "clue"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "closeup",
+            "props": [
+              {
+                "type": "car",
+                "x": 200,
+                "y": 238,
+                "s": 2.6,
+                "sw": "off",
+                "thread": true,
+                "spin": "front"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P06-C",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian is puzzled. Jasmine offers a magnifying glass.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Weird. Only the front wheels turn."
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "Can I look closer?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian scratches his head, puzzled. Jasmine holds up a magnifying glass.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "observation"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "magnifier",
+                "x": 300,
+                "y": 175,
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 120,
+                "face": "think",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 270,
+                "face": "determined",
+                "armR": "hold",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "panels": [
+        {
+          "panel_id": "S01E01-P07-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Jasmine peers through the magnifying glass at Bolt.",
+          "characters": [
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "Look closely! Can YOU spot what's wrong?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine kneels and peers through a magnifying glass at Bolt's back wheel.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "observation",
+            "clue"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch1-clue",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 240,
+                "sw": "off",
+                "thread": true
+              },
+              {
+                "type": "magnifier",
+                "x": 228,
+                "y": 248,
+                "r": 22,
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 140,
+                "face": "think",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P07-B",
+          "shot": "extreme close-up",
+          "location": "garage",
+          "visual": "Magnified: a thread tangled around the back axle.",
+          "characters": [
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "Something is wrapped around the back axle!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Through the magnifying glass: a long red thread is tangled tightly around Bolt's back axle.",
+          "motion": {
+            "type": "limited",
+            "description": "zoom pop",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "clue"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "closeup",
+            "props": [
+              {
+                "type": "car",
+                "x": 255,
+                "y": 238,
+                "s": 3.2,
+                "sw": "off",
+                "thread": true,
+                "glow": true,
+                "anim": "pop"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P07-C",
+          "shot": "three-shot",
+          "location": "garage",
+          "visual": "Marcus cheers; Brian realises he didn't listen.",
+          "characters": [
+            "Marcus",
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Wheel! Me said wheel!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "You were both right… and I didn't listen."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus jumps with his arms up. Brian looks down, embarrassed. Jasmine watches him.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus jumps",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "leadership"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 75,
+                "face": "happy",
+                "look": 1
+              },
+              {
+                "who": "marcus",
+                "x": 165,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "anim": "bounce"
+              },
+              {
+                "who": "brian",
+                "x": 290,
+                "face": "sorry",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "panels": [
+        {
+          "panel_id": "S01E01-P08-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Brian kneels to his siblings' level and apologises.",
+          "characters": [
+            "Brian",
+            "Jasmine",
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Jasmine, Marcus — I'm sorry. I should have listened to you."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian bends down to face Jasmine and Marcus and says sorry, one hand on his chest.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "leadership"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "sorry",
+                "armR": "hold",
+                "look": 1,
+                "y": 284
+              },
+              {
+                "who": "jasmine",
+                "x": 240,
+                "face": "happy",
+                "flip": true
+              },
+              {
+                "who": "marcus",
+                "x": 320,
+                "face": "happy",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P08-B",
+          "shot": "three-shot",
+          "location": "garage",
+          "visual": "Jasmine and Marcus forgive Brian with a team hug.",
+          "characters": [
+            "Jasmine",
+            "Marcus",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "That's okay. We're a team."
+            },
+            {
+              "speaker": "Marcus",
+              "text": "TEAM!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine and Marcus hug Brian. Everyone is smiling.",
+          "motion": {
+            "type": "limited",
+            "description": "group bounce",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "leadership"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "hearts",
+                "x": 200,
+                "y": 70,
+                "anim": "pop"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 150,
+                "face": "laugh",
+                "armR": "hug",
+                "anim": "bounce"
+              },
+              {
+                "who": "jasmine",
+                "x": 225,
+                "face": "laugh",
+                "armR": "hug",
+                "flip": true,
+                "anim": "bounce"
+              },
+              {
+                "who": "marcus",
+                "x": 280,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "flip": true,
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P08-C",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada smiles warmly.",
+          "characters": [
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Good engineers listen. Everyone notices different clues."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada smiles warmly with her hand over her heart.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "leadership"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "ada",
+                "x": 200,
+                "face": "happy",
+                "armR": "hold"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "panels": [
+        {
+          "panel_id": "S01E01-P09-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada picks up tweezers; the children watch from a safe spot.",
+          "characters": [
+            "Ada",
+            "Brian",
+            "Jasmine"
+          ],
+          "caption": "Bolt's switch is still off.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Tools are a grown-up job. You can be my detectives."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada holds a pair of tweezers. Brian and Jasmine watch from a step back.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "safety"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "tweezers",
+                "x": 288,
+                "y": 150,
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 80,
+                "face": "happy",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 150,
+                "face": "happy",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 260,
+                "face": "determined",
+                "armR": "hold",
+                "look": -1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P09-B",
+          "shot": "close-up",
+          "location": "garage",
+          "visual": "Tweezers pull the tangled thread off the axle.",
+          "characters": [],
+          "caption": "Auntie Ada gently pulls out a long, tangled thread.",
+          "dialogue": [],
+          "sfx": "TUG",
+          "alt_text": "Close-up: tweezers pull a long red thread off Bolt's back axle with a TUG.",
+          "motion": {
+            "type": "limited",
+            "description": "tug",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "safety",
+            "system"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "closeup",
+            "props": [
+              {
+                "type": "car",
+                "x": 220,
+                "y": 238,
+                "s": 2.6,
+                "sw": "off",
+                "thread": true
+              },
+              {
+                "type": "tweezers",
+                "x": 110,
+                "y": 165,
+                "s": 2,
+                "anim": "shake"
+              }
+            ],
+            "sfx": [
+              {
+                "text": "TUG!",
+                "x": 300,
+                "y": 80,
+                "rot": 8,
+                "size": 42
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P09-C",
+          "shot": "three-shot",
+          "location": "garage",
+          "visual": "Ada holds up the thread; Jasmine recognises her yarn.",
+          "characters": [
+            "Marcus",
+            "Jasmine",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Long string!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "That's from my yarn basket! Oops."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada holds up a long dangling red thread. Marcus stares. Jasmine covers her mouth, giggling — it's her yarn.",
+          "motion": {
+            "type": "limited",
+            "description": "thread sways",
+            "duration_ms": 600
+          },
+          "lesson_tags": [
+            "humour"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "yarn",
+                "x": 40,
+                "y": 262
+              },
+              {
+                "type": "loosethread",
+                "x": 312,
+                "y": 112,
+                "anim": "sway",
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 110,
+                "face": "wow",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 190,
+                "face": "laugh",
+                "armR": "hold",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 300,
+                "face": "happy",
+                "armR": "up",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "panels": [
+        {
+          "panel_id": "S01E01-P10-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Brian thinks about how to lead the next test.",
+          "characters": [
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Let's test again. But what's the best plan?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian taps his chin, thinking. Jasmine and Marcus wait beside him.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "leadership"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch1-plan",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 200,
+                "face": "think",
+                "armR": "hold"
+              },
+              {
+                "who": "jasmine",
+                "x": 85,
+                "face": "happy",
+                "look": 1
+              },
+              {
+                "who": "marcus",
+                "x": 320,
+                "face": "happy",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P10-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian gives jobs to Jasmine and Marcus.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Jasmine, you draw our results chart. Marcus, you count the wheels!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "I'll make it colourful!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian gestures to Jasmine and Marcus. Jasmine holds up her crayons, excited.",
+          "motion": {
+            "type": "limited",
+            "description": "Jasmine bounces",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "leadership",
+            "delegation"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 120,
+                "face": "happy",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 245,
+                "face": "big",
+                "armR": "up",
+                "flip": true,
+                "anim": "bounce"
+              },
+              {
+                "who": "marcus",
+                "x": 330,
+                "face": "happy",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P10-C",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian asks Ada to check safety.",
+          "characters": [
+            "Brian",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "I'll set the start line. Auntie Ada, can you check safety?"
+            },
+            {
+              "speaker": "Ada",
+              "text": "Happy to, team leader."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian looks up at Auntie Ada and asks for help. She gives a thumbs-up.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "leadership",
+            "safety"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 130,
+                "face": "determined",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 285,
+                "face": "happy",
+                "armR": "up",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "panels": [
+        {
+          "panel_id": "S01E01-P11-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Marcus brings three toy cars for test day.",
+          "characters": [
+            "Marcus"
+          ],
+          "caption": "Marcus brings three more cars for test day.",
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Three cars! Count wheels!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus stands proudly beside three toy cars — teal, purple and yellow.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus hops",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "number"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "cars3",
+                "x": 250
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 120,
+                "face": "big",
+                "armR": "point",
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P11-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Brian poses the wheel question.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Each car has four wheels. How many wheels must we check?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian points at the three toy cars. Jasmine thinks hard.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "number"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch1-wheels",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "cars3",
+                "x": 250
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "think",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 370,
+                "face": "think",
+                "flip": true,
+                "s": 0.95
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P11-C",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Marcus counts the wheels, which light up four at a time.",
+          "characters": [
+            "Marcus",
+            "Brian"
+          ],
+          "caption": "4 + 4 + 4 = 12",
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "One, two, three… TWELVE!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "Twelve wheels. All spinning freely!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "The three toy cars with all twelve wheels spinning. Marcus counts with his fingers; Brian gives a thumbs-up.",
+          "motion": {
+            "type": "limited",
+            "description": "wheels spin",
+            "duration_ms": 700
+          },
+          "lesson_tags": [
+            "number"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "cars3",
+                "x": 250,
+                "spin": true,
+                "badges": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 120,
+                "face": "big",
+                "armL": "up",
+                "armR": "up"
+              },
+              {
+                "who": "brian",
+                "x": 50,
+                "face": "happy",
+                "armR": "up",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "panels": [
+        {
+          "panel_id": "S01E01-P12-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Ada supervises as Brian switches Bolt on.",
+          "characters": [
+            "Ada",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Push test passed. Now a motor test, with me right here."
+            },
+            {
+              "speaker": "Brian",
+              "text": "Switch… ON!"
+            }
+          ],
+          "sfx": "CLICK",
+          "alt_text": "Auntie Ada kneels beside Brian as he switches Bolt on. CLICK!",
+          "motion": {
+            "type": "limited",
+            "description": "sound effect pops",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "safety"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "startline",
+                "x": 196
+              },
+              {
+                "type": "car",
+                "x": 220,
+                "sw": "on"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 120,
+                "face": "determined",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 320,
+                "face": "happy",
+                "flip": true
+              }
+            ],
+            "sfx": [
+              {
+                "text": "CLICK",
+                "x": 230,
+                "y": 160,
+                "rot": -6,
+                "size": 30
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P12-B",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Bolt zooms across the floor.",
+          "characters": [],
+          "caption": "It works!",
+          "dialogue": [],
+          "sfx": "VROOM",
+          "alt_text": "Bolt zooms across the garage floor with speed lines behind it. VROOM!",
+          "motion": {
+            "type": "limited",
+            "description": "car zooms across",
+            "duration_ms": 800
+          },
+          "lesson_tags": [
+            "motion"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "car",
+                "x": 300,
+                "s": 1.4,
+                "sw": "on",
+                "lines": true,
+                "anim": "zoom",
+                "spin": "all"
+              }
+            ],
+            "sfx": [
+              {
+                "text": "VROOM!",
+                "x": 160,
+                "y": 160,
+                "rot": -8,
+                "size": 54
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P12-C",
+          "shot": "three-shot",
+          "location": "garage",
+          "visual": "Everyone cheers.",
+          "characters": [
+            "Brian",
+            "Marcus",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Bolt is back!"
+            },
+            {
+              "speaker": "Marcus",
+              "text": "Vroom vroom!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian, Jasmine and Marcus cheer with their arms in the air.",
+          "motion": {
+            "type": "limited",
+            "description": "cheering bounce",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "celebration"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "sparkles",
+                "x": 200,
+                "y": 80
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "anim": "bounce"
+              },
+              {
+                "who": "jasmine",
+                "x": 210,
+                "face": "laugh",
+                "armL": "up",
+                "armR": "up"
+              },
+              {
+                "who": "marcus",
+                "x": 300,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "anim": "bounce"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "panels": [
+        {
+          "panel_id": "S01E01-P13-A",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Bolt drives onto the fluffy mat and slows down.",
+          "characters": [],
+          "caption": "But on the fluffy mat, Bolt slows right down.",
+          "dialogue": [],
+          "sfx": "fwump",
+          "alt_text": "Bolt drives onto a fluffy pink mat and slows to a crawl. A soft 'fwump' sound.",
+          "motion": {
+            "type": "limited",
+            "description": "car slows on mat",
+            "duration_ms": 800
+          },
+          "lesson_tags": [
+            "motion",
+            "friction"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "mat",
+                "x": 230,
+                "w": 230
+              },
+              {
+                "type": "car",
+                "x": 210,
+                "y": 266,
+                "sw": "on",
+                "anim": "rollshort"
+              }
+            ],
+            "sfx": [
+              {
+                "text": "fwump…",
+                "x": 300,
+                "y": 175,
+                "rot": 4,
+                "size": 30,
+                "color": "#F3B340"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P13-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian worries; Jasmine points out the mat.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Uh-oh. Is Bolt broken again?"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "No! It's slower on the fluffy mat."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian looks worried. Jasmine points at the fluffy mat where Bolt crawls slowly.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "observation",
+            "friction"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "mat",
+                "x": 220,
+                "w": 160
+              },
+              {
+                "type": "car",
+                "x": 220,
+                "y": 266,
+                "sw": "on"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 80,
+                "face": "wow",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 340,
+                "face": "determined",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P13-C",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada explains friction.",
+          "characters": [
+            "Ada"
+          ],
+          "caption": "New word: FRICTION.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "That's friction — a rubbing force that slows things down."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada rubs her hands together to show friction, smiling.",
+          "motion": {
+            "type": "limited",
+            "description": "hands rub",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "friction",
+            "vocabulary"
+          ],
+          "safety_status": "pending_review",
+          "fact": {
+            "title": "More about friction",
+            "text": "Fluffy or rough surfaces usually make more friction than smooth ones. Try rubbing your hands together — that warm feeling is friction! Real results also depend on the wheels, the toy and the push."
+          },
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "rublines",
+                "x": 200,
+                "y": 150
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 200,
+                "face": "happy",
+                "armL": "hold",
+                "armR": "hold",
+                "anim": "shake"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "panels": [
+        {
+          "panel_id": "S01E01-P14-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian proposes a race on two surfaces.",
+          "characters": [
+            "Brian",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Let's race Bolt on the mat AND the smooth board!"
+            },
+            {
+              "speaker": "Ada",
+              "text": "Good idea. Let's make it a fair test."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian points excitedly at a fluffy mat and a smooth wooden board on the floor. Auntie Ada nods.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "fair test"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "mat",
+                "x": 160,
+                "w": 120
+              },
+              {
+                "type": "board",
+                "x": 230,
+                "w": 120
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 70,
+                "face": "big",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 345,
+                "face": "happy",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P14-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada sets up a cardboard ramp.",
+          "characters": [
+            "Ada"
+          ],
+          "caption": "New words: FAIR TEST. Bolt's switch stays off — the ramp gives the same start every time.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Same car, same ramp, same start. We change only the surface."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada places a small cardboard ramp at the start of the board, with Bolt switched off at the top.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "fair test",
+            "vocabulary"
+          ],
+          "safety_status": "pending_review",
+          "fact": {
+            "title": "What makes a test fair?",
+            "text": "In a fair test you change only ONE thing (here, the surface) and keep everything else the same: the same car, the same ramp, the same starting spot, and no pushing."
+          },
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "ramp",
+                "x": 190
+              },
+              {
+                "type": "board",
+                "x": 250,
+                "w": 140
+              },
+              {
+                "type": "car",
+                "x": 214,
+                "y": 252,
+                "s": 0.8,
+                "sw": "off",
+                "tilt": 30
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 110,
+                "face": "happy",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P14-C",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Jasmine and Marcus make predictions.",
+          "characters": [
+            "Jasmine",
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "I predict… the smooth board!"
+            },
+            {
+              "speaker": "Marcus",
+              "text": "Mat! Mat!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine points to the smooth board. Marcus points to the fluffy mat. Each has a guess.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "prediction"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch1-predict",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "mat",
+                "x": 90,
+                "w": 120
+              },
+              {
+                "type": "board",
+                "x": 250,
+                "w": 120
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 200,
+                "face": "determined",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "marcus",
+                "x": 150,
+                "face": "big",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "panels": [
+        {
+          "panel_id": "S01E01-P15-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Brian lets go of Bolt at the top of the ramp, onto the mat.",
+          "characters": [
+            "Brian",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Just let go. No pushing!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "Ready… release!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian opens his hand at the top of the ramp, letting Bolt roll down toward the fluffy mat. Auntie Ada watches.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "fair test"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "ramp",
+                "x": 150
+              },
+              {
+                "type": "mat",
+                "x": 290,
+                "w": 170
+              },
+              {
+                "type": "car",
+                "x": 174,
+                "y": 252,
+                "s": 0.8,
+                "sw": "off",
+                "tilt": 30
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 80,
+                "face": "determined",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 350,
+                "face": "happy",
+                "flip": true,
+                "s": 0.9
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P15-B",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Bolt stops after three blocks on the mat; Marcus counts.",
+          "characters": [
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "One, two, three blocks!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Bolt has stopped on the fluffy mat beside the third counting block. Marcus counts the blocks.",
+          "motion": {
+            "type": "limited",
+            "description": "short roll",
+            "duration_ms": 700
+          },
+          "lesson_tags": [
+            "measurement",
+            "number"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "ramp",
+                "x": 60
+              },
+              {
+                "type": "mat",
+                "x": 230,
+                "w": 300
+              },
+              {
+                "type": "blocks",
+                "x": 120,
+                "n": 7,
+                "lit": 3
+              },
+              {
+                "type": "car",
+                "x": 160,
+                "y": 262,
+                "s": 0.8,
+                "sw": "off",
+                "anim": "rollshort"
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 330,
+                "face": "big",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P15-C",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Jasmine draws the first bar on her chart.",
+          "characters": [
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "Mat: three blocks. I'll draw a short bar."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine holds up her chart. One short pink bar shows the mat result: three blocks.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "data"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "chart",
+                "x": 255,
+                "y": 110,
+                "bars": [
+                  3,
+                  0
+                ],
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 160,
+                "face": "happy",
+                "armR": "hold",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 16,
+      "panels": [
+        {
+          "panel_id": "S01E01-P16-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Same ramp, now onto the smooth board.",
+          "characters": [
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Same ramp. Same spot. Let go!"
+            }
+          ],
+          "sfx": "WHOOSH",
+          "alt_text": "Brian lets Bolt go from the same ramp, now facing the smooth wooden board. WHOOSH!",
+          "motion": {
+            "type": "limited",
+            "description": "sound effect pops",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "fair test"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "ramp",
+                "x": 150
+              },
+              {
+                "type": "board",
+                "x": 210,
+                "w": 180
+              },
+              {
+                "type": "car",
+                "x": 174,
+                "y": 252,
+                "s": 0.8,
+                "sw": "off",
+                "tilt": 30
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 80,
+                "face": "big",
+                "armR": "point",
+                "look": 1
+              }
+            ],
+            "sfx": [
+              {
+                "text": "WHOOSH!",
+                "x": 300,
+                "y": 160,
+                "rot": -6,
+                "size": 40
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P16-B",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Bolt rolls seven blocks on the smooth board.",
+          "characters": [
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "…six, seven! SEVEN blocks!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Bolt rolls all the way to the seventh counting block on the smooth board. Marcus jumps with excitement.",
+          "motion": {
+            "type": "limited",
+            "description": "long roll",
+            "duration_ms": 800
+          },
+          "lesson_tags": [
+            "measurement",
+            "number"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "ramp",
+                "x": 30
+              },
+              {
+                "type": "board",
+                "x": 90,
+                "w": 230
+              },
+              {
+                "type": "blocks",
+                "x": 90,
+                "n": 7,
+                "lit": 7
+              },
+              {
+                "type": "car",
+                "x": 292,
+                "y": 262,
+                "s": 0.8,
+                "sw": "off",
+                "anim": "rolllong"
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 360,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "flip": true,
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P16-C",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Jasmine's finished chart compares both bars.",
+          "characters": [
+            "Jasmine",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "Board: seven blocks. That's four more than the mat!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "Less friction, farther roll!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine's chart shows a short pink bar for the mat (3 blocks) and a tall teal bar for the board (7 blocks). Brian grins.",
+          "motion": {
+            "type": "limited",
+            "description": "second bar grows",
+            "duration_ms": 600
+          },
+          "lesson_tags": [
+            "data",
+            "number",
+            "friction"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "chart",
+                "x": 200,
+                "y": 95,
+                "bars": [
+                  3,
+                  7
+                ],
+                "front": true,
+                "anim": "pop"
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 110,
+                "face": "big",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "brian",
+                "x": 320,
+                "face": "big",
+                "armR": "up",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 17,
+      "panels": [
+        {
+          "panel_id": "S01E01-P17-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Marcus lies on the mat pretending to be a car.",
+          "characters": [
+            "Marcus"
+          ],
+          "caption": "Marcus runs his own friction test.",
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Me a car! Vroom!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus lies on his tummy on the fluffy mat with his arms out like a car, not moving at all.",
+          "motion": {
+            "type": "limited",
+            "description": "tiny wiggle",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "humour"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "mat",
+                "x": 200,
+                "w": 260
+              },
+              {
+                "type": "lyingmarcus",
+                "x": 200,
+                "y": 262,
+                "anim": "shake"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P17-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Marcus gives up dramatically; everyone laughs.",
+          "characters": [
+            "Marcus",
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Too much friction!"
+            }
+          ],
+          "sfx": "HA HA",
+          "alt_text": "Marcus flops on the mat, declaring 'Too much friction!' Brian and Jasmine burst out laughing.",
+          "motion": {
+            "type": "limited",
+            "description": "laughter bounce",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "humour",
+            "friction"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "mat",
+                "x": 200,
+                "w": 200
+              },
+              {
+                "type": "lyingmarcus",
+                "x": 200,
+                "y": 262
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 70,
+                "face": "laugh",
+                "armR": "hold",
+                "look": 1,
+                "anim": "bounce"
+              },
+              {
+                "who": "jasmine",
+                "x": 340,
+                "face": "laugh",
+                "armR": "hold",
+                "flip": true,
+                "anim": "bounce"
+              }
+            ],
+            "sfx": [
+              {
+                "text": "HA HA!",
+                "x": 200,
+                "y": 120,
+                "rot": -5,
+                "size": 40
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P17-C",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada laughs too.",
+          "characters": [
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Excellent data, Marcus!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada laughs and gives Marcus a thumbs-up.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "humour"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "ada",
+                "x": 160,
+                "face": "laugh",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "marcus",
+                "x": 300,
+                "face": "big",
+                "armL": "up",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 18,
+      "panels": [
+        {
+          "panel_id": "S01E01-P18-A",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Race day: bunting, smooth board track, Jasmine's flag.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "caption": "One week later: the Big Garage Race!",
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Axle checked. Wheels checked. Smooth track. Ready!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "The garage is decorated with colourful bunting. Bolt waits at the start of a smooth board track. Jasmine holds her checkered flag at the finish.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "planning"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "props": [
+              {
+                "type": "board",
+                "x": 120,
+                "w": 230
+              },
+              {
+                "type": "startline",
+                "x": 140
+              },
+              {
+                "type": "car",
+                "x": 165,
+                "y": 266,
+                "sw": "on"
+              },
+              {
+                "type": "finish",
+                "x": 340
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 70,
+                "face": "determined",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 362,
+                "face": "big",
+                "flip": true,
+                "s": 0.9
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P18-B",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Bolt zooms down the track.",
+          "characters": [],
+          "dialogue": [],
+          "sfx": "VROOOM",
+          "alt_text": "Bolt zooms down the smooth track with speed lines. VROOOM!",
+          "motion": {
+            "type": "limited",
+            "description": "car zooms",
+            "duration_ms": 800
+          },
+          "lesson_tags": [
+            "motion"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "props": [
+              {
+                "type": "board",
+                "x": 20,
+                "w": 360
+              },
+              {
+                "type": "car",
+                "x": 280,
+                "y": 266,
+                "s": 1.3,
+                "sw": "on",
+                "lines": true,
+                "anim": "zoom",
+                "spin": "all"
+              },
+              {
+                "type": "finish",
+                "x": 360
+              }
+            ],
+            "sfx": [
+              {
+                "text": "VROOOM!",
+                "x": 150,
+                "y": 150,
+                "rot": -6,
+                "size": 54
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P18-C",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Bolt crosses the finish; everyone cheers.",
+          "characters": [
+            "Jasmine",
+            "Brian",
+            "Marcus",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "It finished!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "Because we did it together!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Bolt crosses the finish line. Brian, Jasmine, Marcus and Auntie Ada cheer together under the bunting.",
+          "motion": {
+            "type": "limited",
+            "description": "cheering bounce",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "teamwork"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "props": [
+              {
+                "type": "finish",
+                "x": 205
+              },
+              {
+                "type": "car",
+                "x": 232,
+                "y": 276,
+                "s": 0.8,
+                "sw": "on"
+              },
+              {
+                "type": "sparkles",
+                "x": 200,
+                "y": 70
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 345,
+                "face": "laugh",
+                "armR": "up",
+                "flip": true
+              },
+              {
+                "who": "jasmine",
+                "x": 140,
+                "face": "laugh",
+                "armL": "up",
+                "armR": "up",
+                "anim": "bounce"
+              },
+              {
+                "who": "brian",
+                "x": 60,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "anim": "bounce"
+              },
+              {
+                "who": "marcus",
+                "x": 280,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "flip": true,
+                "anim": "bounce"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 19,
+      "panels": [
+        {
+          "panel_id": "S01E01-P19-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian and Jasmine share what they learned.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Test one thing at a time."
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "And look closely for clues!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian holds up one finger. Jasmine holds up her magnifying glass.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "troubleshooting",
+            "observation"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "magnifier",
+                "x": 296,
+                "y": 178,
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 120,
+                "face": "happy",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 270,
+                "face": "happy",
+                "armR": "hold",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P19-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Marcus adds his lesson; Brian laughs.",
+          "characters": [
+            "Marcus",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "And listen to Marcus!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "And listen to everybody."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus puts his hands on his hips proudly. Brian laughs and ruffles his hair.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "leadership"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 230,
+                "face": "big",
+                "armL": "hip",
+                "armR": "hip"
+              },
+              {
+                "who": "brian",
+                "x": 140,
+                "face": "laugh",
+                "armR": "hold",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P19-C",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada sums up; closing safety message.",
+          "characters": [
+            "Ada"
+          ],
+          "caption": "Safe engineering: toys, paper, cardboard — and a grown-up helper.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "That's how engineers work. And grown-ups handle tools and batteries."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada smiles beside the pegboard of tools, which hangs high up out of children's reach.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "safety"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "ada",
+                "x": 200,
+                "face": "happy",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 20,
+      "panels": [
+        {
+          "panel_id": "S01E01-P20-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "That night, Marcus opens the spare-wheels box.",
+          "characters": [
+            "Marcus"
+          ],
+          "caption": "That night…",
+          "dialogue": [],
+          "sfx": "",
+          "alt_text": "In the evening garage, Marcus opens a cardboard box marked for spare wheels.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "teaser"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "night",
+            "props": [
+              {
+                "type": "box",
+                "x": 240,
+                "empty": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 150,
+                "face": "happy",
+                "armR": "hold",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P20-B",
+          "shot": "close-up",
+          "location": "garage",
+          "visual": "The box is empty. Marcus gasps.",
+          "characters": [
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Uh-oh. Wheels… GONE!"
+            }
+          ],
+          "sfx": "?!",
+          "alt_text": "Close-up: the spare-wheels box is completely empty. Marcus's eyes go wide.",
+          "motion": {
+            "type": "limited",
+            "description": "surprise pop",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "teaser"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "night",
+            "props": [
+              {
+                "type": "box",
+                "x": 270,
+                "empty": true,
+                "s": 1.5
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 120,
+                "face": "wow",
+                "s": 1.5,
+                "y": 300,
+                "armL": "up",
+                "armR": "up",
+                "anim": "shake"
+              }
+            ],
+            "sfx": [
+              {
+                "text": "?!",
+                "x": 200,
+                "y": 90,
+                "rot": 0,
+                "size": 56
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E01-P20-C",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Brian and Jasmine rush in, ready for a new mystery.",
+          "characters": [
+            "Brian",
+            "Jasmine",
+            "Marcus"
+          ],
+          "caption": "Next time: The Mystery of the Missing Wheels!",
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "A new mystery? Team — let's go!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian and Jasmine rush in with a torch-shaped magnifier, ready to solve the mystery with Marcus.",
+          "motion": {
+            "type": "limited",
+            "description": "team bounce",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "teaser"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "night",
+            "props": [
+              {
+                "type": "box",
+                "x": 330,
+                "empty": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 90,
+                "face": "determined",
+                "armR": "point",
+                "look": 1,
+                "anim": "bounce"
+              },
+              {
+                "who": "jasmine",
+                "x": 170,
+                "face": "determined",
+                "armR": "hold",
+                "look": 1
+              },
+              {
+                "who": "marcus",
+                "x": 250,
+                "face": "wow",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1886 @@
+{
+  "series_id": "bbg",
+  "series_title": "Brian's Big Garage",
+  "episode_id": "S01E06",
+  "episode_number": 6,
+  "revision": "1.0",
+  "title": "Red Means Stop!",
+  "hook": "The Car Parade is across the big road — and Brian wants to RUN. Can the team learn how signals keep everyone safe?",
+  "reading_minutes": 8,
+  "core_lesson": "Near roads, we stop at the {kerb}, follow the signals, look and listen — and always cross with a grown-up.",
+  "new_terms": [
+    "{kerb}",
+    "{crossing}"
+  ],
+  "adult_safety_note": "This episode models crossing ONLY with a supervising adult, holding hands, at a signal-controlled {crossing}. It does not teach children to cross alone. Road rules are localised for {name}; they are simplified and have not yet been reviewed by a local road-safety expert.",
+  "localisation_key_prefix": "s01e06",
+  "editorial_status": "draft",
+  "learning_objectives": [
+    {
+      "topic": "Safety",
+      "goal": "Stop at the {kerb}, hold a grown-up's hand, and cross only with a grown-up."
+    },
+    {
+      "topic": "Signals",
+      "goal": "Car lights tell drivers what to do; in {name} they go {sequenceText}."
+    },
+    {
+      "topic": "Signals",
+      "goal": "The pedestrian signal is for walkers: wait for the {walk}, even when the road looks empty."
+    },
+    {
+      "topic": "Spatial logic",
+      "goal": "In {name} traffic drives on the {side}, so the nearest cars come from the {look1}: look {look1}, {look2}, {look1} again."
+    },
+    {
+      "topic": "Order",
+      "goal": "Put the car-light pattern in order, starting from red."
+    },
+    {
+      "topic": "Leadership",
+      "goal": "Brian chooses patience: he waits for the team instead of running ahead."
+    }
+  ],
+  "talk_together": [
+    "Why did the team wait for the {walk} even when the road looked empty?",
+    "Next time you walk near a road with a grown-up, can you spot the {crossing} and the signals?",
+    "Which way do we look first here, and why?"
+  ],
+  "complete": {
+    "recall": "Stop at the {kerb}. Follow the signals. Cross with a grown-up!",
+    "question": "On your next walk with a grown-up, point out every traffic light and {crossing} you see."
+  },
+  "locale_sources": [
+    {
+      "title": "UK traffic light sequence (Collingwood)",
+      "url": "https://www.collingwood.co.uk/insight/traffic-light-sequence/"
+    },
+    {
+      "title": "Red + amber phase by country (Jalopnik)",
+      "url": "https://jalopnik.com/2069118/european-traffic-light-red-yellow-same-time/"
+    },
+    {
+      "title": "Crossings for pedestrians (SA Police, Australia)",
+      "url": "https://www.police.sa.gov.au/__data/assets/pdf_file/0004/1085026/Crossings-For-Pedestrians-Fact-Sheet.pdf"
+    },
+    {
+      "title": "Nigerian traffic signs and light signals (Legit.ng)",
+      "url": "https://www.legit.ng/ask-legit/guides/1105285-nigeria-road-signs-meanings/"
+    }
+  ],
+  "locales": {
+    "ng": {
+      "label": "Nigeria",
+      "name": "Nigeria",
+      "review": "Not yet reviewed by a Nigerian road-safety expert (FRSC guidance should be checked). Last checked against public sources on 2026-10-16.",
+      "vars": {
+        "side": "right",
+        "look1": "left",
+        "look2": "right",
+        "lookdir1": -1,
+        "kerb": "kerb",
+        "pavement": "walkway",
+        "crossing": "zebra crossing",
+        "amber": "amber",
+        "walk": "green figure",
+        "dontwalk": "red figure",
+        "pedstyle": "figure",
+        "countdown": 0,
+        "sequence": [
+          "red",
+          "green",
+          "amber"
+        ],
+        "stopword": "STOP",
+        "note": "Some signals may also show red and amber together before green, and signal types vary by city — confirm with FRSC guidance."
+      }
+    },
+    "ca": {
+      "label": "Canada",
+      "name": "Canada",
+      "review": "Not yet reviewed by a Canadian road-safety expert. Rules vary by province. Last checked against public sources on 2026-10-16.",
+      "vars": {
+        "side": "right",
+        "look1": "left",
+        "look2": "right",
+        "lookdir1": -1,
+        "kerb": "curb",
+        "pavement": "sidewalk",
+        "crossing": "crosswalk",
+        "amber": "yellow",
+        "walk": "white walking person",
+        "dontwalk": "orange hand",
+        "pedstyle": "hand",
+        "countdown": 9,
+        "sequence": [
+          "red",
+          "green",
+          "amber"
+        ],
+        "stopword": "STOP",
+        "note": "Many crossings have countdown timers; don't start crossing once the hand is showing. In Québec, stop signs may say ARRÊT."
+      }
+    },
+    "gb": {
+      "label": "United Kingdom",
+      "name": "the UK",
+      "review": "Not yet reviewed by a UK road-safety expert. Last checked against public sources on 2026-10-16.",
+      "vars": {
+        "side": "left",
+        "look1": "right",
+        "look2": "left",
+        "lookdir1": 1,
+        "kerb": "kerb",
+        "pavement": "pavement",
+        "crossing": "zebra crossing",
+        "amber": "amber",
+        "walk": "green figure",
+        "dontwalk": "red figure",
+        "pedstyle": "figure",
+        "countdown": 0,
+        "sequence": [
+          "red",
+          "redamber",
+          "green",
+          "amber"
+        ],
+        "stopword": "STOP",
+        "note": "Car lights show red and amber together before green. Signal-controlled crossings (pelican, puffin, toucan) have a green figure; zebra crossings have stripes and flashing amber beacons."
+      }
+    },
+    "fr": {
+      "label": "France",
+      "name": "France",
+      "review": "Not yet reviewed by a French road-safety expert. Last checked against public sources on 2026-10-16.",
+      "vars": {
+        "side": "right",
+        "look1": "left",
+        "look2": "right",
+        "lookdir1": -1,
+        "kerb": "kerb",
+        "pavement": "pavement",
+        "crossing": "pedestrian crossing",
+        "amber": "orange",
+        "walk": "green figure",
+        "dontwalk": "red figure",
+        "pedstyle": "figure",
+        "countdown": 0,
+        "sequence": [
+          "red",
+          "green",
+          "amber"
+        ],
+        "stopword": "STOP",
+        "note": "The crossing is called a passage piéton. Car lights go red → green → orange, without a red-and-orange phase."
+      }
+    },
+    "de": {
+      "label": "Germany",
+      "name": "Germany",
+      "review": "Not yet reviewed by a German road-safety expert. Last checked against public sources on 2026-10-16.",
+      "vars": {
+        "side": "right",
+        "look1": "left",
+        "look2": "right",
+        "lookdir1": -1,
+        "kerb": "kerb",
+        "pavement": "pavement",
+        "crossing": "zebra crossing",
+        "amber": "yellow",
+        "walk": "green figure",
+        "dontwalk": "red figure",
+        "pedstyle": "figure",
+        "countdown": 0,
+        "sequence": [
+          "red",
+          "redamber",
+          "green",
+          "amber"
+        ],
+        "stopword": "STOP",
+        "note": "The crossing is called a Zebrastreifen; the pedestrian figure is often the Ampelmännchen. Car lights show red and yellow together before green."
+      }
+    },
+    "au": {
+      "label": "Australia",
+      "name": "Australia",
+      "review": "Not yet reviewed by an Australian road-safety expert. Rules vary slightly by state. Last checked against public sources on 2026-10-16.",
+      "vars": {
+        "side": "left",
+        "look1": "right",
+        "look2": "left",
+        "lookdir1": 1,
+        "kerb": "kerb",
+        "pavement": "footpath",
+        "crossing": "pedestrian crossing",
+        "amber": "yellow",
+        "walk": "green figure",
+        "dontwalk": "red figure",
+        "pedstyle": "figure",
+        "countdown": 0,
+        "sequence": [
+          "red",
+          "green",
+          "amber"
+        ],
+        "stopword": "STOP",
+        "note": "Press the button once. Never start crossing on a flashing or steady red figure; if you are already crossing when it starts flashing, keep going safely."
+      }
+    },
+    "cn": {
+      "label": "China",
+      "name": "China",
+      "review": "Not yet reviewed by a Chinese road-safety expert. Applies to mainland China only. Last checked against public sources on 2026-10-16.",
+      "vars": {
+        "side": "right",
+        "look1": "left",
+        "look2": "right",
+        "lookdir1": -1,
+        "kerb": "kerb",
+        "pavement": "pavement",
+        "crossing": "zebra crossing",
+        "amber": "yellow",
+        "walk": "green figure",
+        "dontwalk": "red figure",
+        "pedstyle": "figure",
+        "countdown": 9,
+        "sequence": [
+          "red",
+          "green",
+          "amber"
+        ],
+        "stopword": "停",
+        "note": "Rules shown are for mainland China; Hong Kong and Macau drive on the left. Many signals have countdown timers. Stop signs show 停."
+      }
+    },
+    "us": {
+      "label": "United States",
+      "name": "the US",
+      "review": "Not yet reviewed by a US road-safety expert. Rules vary by state and city. Last checked against public sources on 2026-10-16.",
+      "vars": {
+        "side": "right",
+        "look1": "left",
+        "look2": "right",
+        "lookdir1": -1,
+        "kerb": "curb",
+        "pavement": "sidewalk",
+        "crossing": "crosswalk",
+        "amber": "yellow",
+        "walk": "white walking person",
+        "dontwalk": "orange hand",
+        "pedstyle": "hand",
+        "countdown": 9,
+        "sequence": [
+          "red",
+          "green",
+          "amber"
+        ],
+        "stopword": "STOP",
+        "note": "Many crossings have countdown timers. A flashing hand means don't start crossing. Car lights have no red-and-yellow phase."
+      }
+    }
+  },
+  "season": [
+    {
+      "ep": "01",
+      "title": "The Car That Wouldn't Move",
+      "concept": "wheels, axles, friction",
+      "link": "S01E01.html"
+    },
+    {
+      "ep": "02",
+      "title": "The Mystery of the Missing Wheels",
+      "concept": "parts and inventory",
+      "link": "S01E02.html"
+    },
+    {
+      "ep": "03",
+      "title": "The Great Ramp Race",
+      "concept": "gravity and fair tests",
+      "link": "S01E03.html"
+    },
+    {
+      "ep": "04",
+      "title": "Inside the Mighty Engine",
+      "concept": "energy and propulsion",
+      "link": "S01E04.html"
+    },
+    {
+      "ep": "05",
+      "title": "The Time-Travel Garage",
+      "concept": "transport history",
+      "link": "S01E05.html"
+    },
+    {
+      "ep": "06",
+      "title": "Red Means Stop!",
+      "concept": "traffic infrastructure",
+      "available": true
+    },
+    {
+      "ep": "07",
+      "title": "The Battery Mystery",
+      "concept": "simple circuits"
+    },
+    {
+      "ep": "08",
+      "title": "The Big Garage Mix-Up",
+      "concept": "scheduling"
+    },
+    {
+      "ep": "09",
+      "title": "Jasmine's Brilliant Idea",
+      "concept": "design iteration"
+    },
+    {
+      "ep": "10",
+      "title": "The Junior Engineer Challenge",
+      "concept": "full design process"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "ch6-lights",
+      "kind": "order",
+      "label": "Light-pattern puzzle",
+      "prompt": "Starting with red, put the car lights in order for {name}.",
+      "items": "$lightItems",
+      "answer": "$lightOrder",
+      "hint": "Start with red — that's where the pattern begins.",
+      "explain": "In {name}: {sequenceText}, then back to red again. {Amber} means the light is about to change.",
+      "retry": true
+    },
+    {
+      "id": "ch6-wait",
+      "kind": "single_choice",
+      "label": "Wait or go?",
+      "prompt": "The {dontwalk} is showing, but the road looks empty. What do we do?",
+      "options": [
+        {
+          "id": "wait",
+          "text": "Wait with our grown-up for the {walk}."
+        },
+        {
+          "id": "run",
+          "text": "Run across quickly."
+        },
+        {
+          "id": "alone",
+          "text": "Cross by ourselves."
+        }
+      ],
+      "answer": "wait",
+      "hint": "Cars can appear very quickly. Who does the signal say should wait?",
+      "explain": "We wait for the {walk}, with our grown-up, even when the road looks empty. Cars can come fast!",
+      "retry": true
+    },
+    {
+      "id": "ch6-look",
+      "kind": "single_choice",
+      "label": "Look which way?",
+      "prompt": "In {name}, cars drive on the {side}. Which way do we look first?",
+      "options": [
+        {
+          "id": "left",
+          "text": "Left"
+        },
+        {
+          "id": "right",
+          "text": "Right"
+        }
+      ],
+      "answer": "$look1",
+      "hint": "The nearest lane of cars comes toward us first. Which side is it coming from when cars drive on the {side}?",
+      "explain": "Look {look1} first — the nearest cars come from there. Then look {look2}, then {look1} again, and keep listening.",
+      "retry": true
+    },
+    {
+      "id": "ch6-crossing",
+      "kind": "single_choice",
+      "label": "Safest place to cross",
+      "prompt": "Where is the safest place to cross the road?",
+      "options": [
+        {
+          "id": "parked",
+          "text": "Between parked cars."
+        },
+        {
+          "id": "crossing",
+          "text": "At the {crossing}, holding a grown-up's hand."
+        },
+        {
+          "id": "run",
+          "text": "Anywhere, if we run fast."
+        }
+      ],
+      "answer": "crossing",
+      "hint": "Where can drivers see us clearly, and where do the signals help?",
+      "explain": "At the {crossing}, with a grown-up: drivers can see us and the signals help everyone take turns.",
+      "retry": true
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        {
+          "panel_id": "S01E06-P01-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian bounces with excitement about the Car Parade; Jasmine reminds him about the big road.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "caption": "Saturday: the Sunbeam Junction Car Parade!",
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "The Car Parade is in the park! Let's RUN!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "But the park is across the big road."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "In the garage, Brian jumps with excitement. Jasmine holds up a hand, thinking about the big road.",
+          "motion": {
+            "type": "limited",
+            "description": "Brian bounces",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "problem"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 120,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "look": 1,
+                "anim": "bounce"
+              },
+              {
+                "who": "jasmine",
+                "x": 280,
+                "face": "think",
+                "armR": "up",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E06-P01-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Ada sets the rule: walk together and hold hands near roads.",
+          "characters": [
+            "Ada",
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "We'll walk together. Near roads, you hold a grown-up's hand."
+            },
+            {
+              "speaker": "Marcus",
+              "text": "Hold hands!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada holds out her hand. Marcus grabs it happily.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "safety"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "actors": [
+              {
+                "who": "ada",
+                "x": 250,
+                "face": "happy",
+                "armL": "hug",
+                "flip": true
+              },
+              {
+                "who": "marcus",
+                "x": 160,
+                "face": "big",
+                "armR": "up",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "panels": [
+        {
+          "panel_id": "S01E06-P02-A",
+          "shot": "wide",
+          "location": "street",
+          "visual": "On the street, Brian has hurried ahead; Ada calls him to stop at the edge.",
+          "characters": [
+            "Ada",
+            "Brian"
+          ],
+          "caption": "New word: {KERB} — the edge of the {pavement}, next to the road. We always stop there.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Brian, stop at the {kerb} and wait for us."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "A busy street with shops and a road. Brian has hurried ahead along the {pavement}; Auntie Ada, Jasmine and Marcus are behind him.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "safety",
+            "vocabulary"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "street",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 310,
+                "face": "wow",
+                "look": -1
+              },
+              {
+                "who": "ada",
+                "x": 110,
+                "face": "determined",
+                "armR": "point",
+                "look": 1,
+                "s": 0.9
+              },
+              {
+                "who": "jasmine",
+                "x": 40,
+                "face": "happy",
+                "look": 1,
+                "s": 0.9
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E06-P02-B",
+          "shot": "medium",
+          "location": "street",
+          "visual": "Brian stops at the edge of the pavement and waits.",
+          "characters": [
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Okay. I'll stop and wait for my team."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian stands still at the edge of the {pavement}, hands by his sides, waiting for the others.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "safety",
+            "leadership"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "street",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 200,
+                "face": "determined",
+                "look": -1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "panels": [
+        {
+          "panel_id": "S01E06-P03-A",
+          "shot": "medium",
+          "location": "street",
+          "visual": "Jasmine notices the traffic light for cars changing.",
+          "characters": [
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "That light keeps changing. It's a pattern!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine points up at a traffic light beside the road. It is showing red.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "pattern",
+            "signals"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "street",
+            "props": [
+              {
+                "type": "trafficlight",
+                "x": 300,
+                "y": 96,
+                "state": "red",
+                "poleLen": 140
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 160,
+                "face": "big",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E06-P03-B",
+          "shot": "two-shot",
+          "location": "street",
+          "visual": "Ada explains the car lights.",
+          "characters": [
+            "Ada",
+            "Jasmine"
+          ],
+          "caption": "Lights for cars.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Car lights tell drivers what to do. Red means stop. Green means go."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada points at the car traffic light, now showing green. Jasmine watches closely.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "signals"
+          ],
+          "safety_status": "pending_review",
+          "fact": {
+            "title": "Car lights in {name}",
+            "text": "Here, car lights go {sequenceText}, then back to red. {Amber} means the light is about to change, so drivers get ready to stop."
+          },
+          "scene": {
+            "bg": "street",
+            "props": [
+              {
+                "type": "trafficlight",
+                "x": 300,
+                "y": 96,
+                "state": "green",
+                "poleLen": 140
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 170,
+                "face": "happy",
+                "armR": "point",
+                "look": 1,
+                "s": 0.9
+              },
+              {
+                "who": "jasmine",
+                "x": 60,
+                "face": "think",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "panels": [
+        {
+          "panel_id": "S01E06-P04-A",
+          "shot": "medium",
+          "location": "street",
+          "visual": "Jasmine watches the light go round the pattern again.",
+          "characters": [
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "I'll watch it go round again and remember the order!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine stares at the traffic light, now showing {amber}, counting the colours on her fingers.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "pattern",
+            "order"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch6-lights",
+          "scene": {
+            "bg": "street",
+            "props": [
+              {
+                "type": "trafficlight",
+                "x": 300,
+                "y": 96,
+                "state": "amber",
+                "poleLen": 140
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 160,
+                "face": "think",
+                "armR": "hold",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E06-P04-B",
+          "shot": "two-shot",
+          "location": "street",
+          "visual": "Marcus presses the crossing button again and again; Ada smiles.",
+          "characters": [
+            "Marcus",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Press! Press! PRESS!"
+            },
+            {
+              "speaker": "Ada",
+              "text": "Once is enough, Marcus. The signal heard you!"
+            }
+          ],
+          "sfx": "BEEP",
+          "alt_text": "Marcus jabs the button on the crossing signal pole over and over. BEEP! Auntie Ada laughs.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus bounces",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "humour",
+            "signals"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "street",
+            "props": [
+              {
+                "type": "pedlight",
+                "x": 190,
+                "y": 130,
+                "state": "stop",
+                "style": "$pedstyle",
+                "button": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 150,
+                "face": "laugh",
+                "armR": "point",
+                "look": 1,
+                "anim": "bounce"
+              },
+              {
+                "who": "ada",
+                "x": 300,
+                "face": "laugh",
+                "flip": true,
+                "s": 0.9
+              }
+            ],
+            "sfx": [
+              {
+                "text": "BEEP!",
+                "x": 250,
+                "y": 120,
+                "rot": 8,
+                "size": 32
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "panels": [
+        {
+          "panel_id": "S01E06-P05-A",
+          "shot": "two-shot",
+          "location": "street",
+          "visual": "Ada points to the pedestrian signal showing 'wait'.",
+          "characters": [
+            "Ada",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "This light is for us. The {dontwalk} means wait."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "The pedestrian signal shows a {dontwalk}. Auntie Ada points at it; Brian looks up.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "signals"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "street",
+            "props": [
+              {
+                "type": "pedlight",
+                "x": 210,
+                "y": 130,
+                "state": "stop",
+                "style": "$pedstyle",
+                "countdown": "$countdown"
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 330,
+                "face": "happy",
+                "armR": "point",
+                "flip": true,
+                "s": 0.9
+              },
+              {
+                "who": "brian",
+                "x": 90,
+                "face": "think",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E06-P05-B",
+          "shot": "two-shot",
+          "location": "street",
+          "visual": "The road looks empty. Brian wants to go; Ada explains why they wait.",
+          "characters": [
+            "Brian",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "There are no cars! Can we just go?"
+            },
+            {
+              "speaker": "Ada",
+              "text": "We still wait for the {walk}. Cars can come quickly."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "The road behind them is empty. Brian leans forward impatiently. Auntie Ada keeps hold of his hand and shakes her head kindly.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "safety",
+            "patience"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch6-wait",
+          "scene": {
+            "bg": "street",
+            "props": [
+              {
+                "type": "pedlight",
+                "x": 350,
+                "y": 130,
+                "state": "stop",
+                "style": "$pedstyle"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 120,
+                "face": "determined",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 220,
+                "face": "happy",
+                "armL": "hug",
+                "flip": true,
+                "s": 0.9
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "panels": [
+        {
+          "panel_id": "S01E06-P06-A",
+          "shot": "wide",
+          "location": "street",
+          "visual": "The pedestrian signal changes to 'go'; the cars have stopped before the crossing.",
+          "characters": [
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "The {walk} is on. Now we stop, look and listen."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "The pedestrian signal now shows a {walk}. Cars have stopped on both sides of the {crossing}. Auntie Ada stands at the {kerb}.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "signals",
+            "safety"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "street",
+            "props": [
+              {
+                "type": "zebra",
+                "x": 200
+              },
+              {
+                "type": "traffic",
+                "x": 200,
+                "side": "$side"
+              },
+              {
+                "type": "pedlight",
+                "x": 345,
+                "y": 130,
+                "state": "go",
+                "style": "$pedstyle",
+                "countdown": "$countdown"
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 265,
+                "face": "happy",
+                "armR": "point",
+                "flip": true,
+                "s": 0.9
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E06-P06-B",
+          "shot": "two-shot",
+          "location": "street",
+          "visual": "Brian asks which way to look first; Ada explains the driving side.",
+          "characters": [
+            "Brian",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Which way do we look first?"
+            },
+            {
+              "speaker": "Ada",
+              "text": "In {name}, cars drive on the {side}. Look {look1} first!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian looks up at Auntie Ada with a question. She points to the {look1}, where the nearest cars come from.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "spatial logic",
+            "safety"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch6-look",
+          "scene": {
+            "bg": "street",
+            "props": [
+              {
+                "type": "zebra",
+                "x": 200
+              },
+              {
+                "type": "traffic",
+                "x": 200,
+                "side": "$side"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 70,
+                "face": "think",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 335,
+                "face": "happy",
+                "armR": "point",
+                "look": 1,
+                "s": 0.9,
+                "flip": "$lookleft"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "panels": [
+        {
+          "panel_id": "S01E06-P07-A",
+          "shot": "wide",
+          "location": "street",
+          "visual": "Everyone at the kerb looks the correct way first.",
+          "characters": [
+            "Brian",
+            "Jasmine",
+            "Marcus",
+            "Ada"
+          ],
+          "caption": "Look {look1}, then {look2}, then {look1} again. Listen, too!",
+          "dialogue": [],
+          "sfx": "",
+          "alt_text": "Brian, Jasmine, Marcus and Auntie Ada stand together at the {kerb}, all turning their eyes to the {look1} first.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "spatial logic",
+            "safety"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "street",
+            "props": [
+              {
+                "type": "zebra",
+                "x": 200
+              },
+              {
+                "type": "traffic",
+                "x": 200,
+                "side": "$side"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 70,
+                "face": "determined",
+                "look": "$lookdir1"
+              },
+              {
+                "who": "jasmine",
+                "x": 140,
+                "face": "determined",
+                "look": "$lookdir1"
+              },
+              {
+                "who": "marcus",
+                "x": 265,
+                "face": "determined",
+                "look": "$lookdir1"
+              },
+              {
+                "who": "ada",
+                "x": 335,
+                "face": "happy",
+                "look": "$lookdir1",
+                "s": 0.9
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E06-P07-B",
+          "shot": "wide",
+          "location": "street",
+          "visual": "Holding hands, the family walks across the crossing while cars wait.",
+          "characters": [
+            "Jasmine",
+            "Ada",
+            "Marcus",
+            "Brian"
+          ],
+          "caption": "Hold hands. Walk, don't run. Keep looking and listening.",
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "We're crossing together!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada leads Brian, Jasmine and Marcus across the {crossing}, all holding hands, while the cars wait.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "safety",
+            "teamwork"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "street",
+            "props": [
+              {
+                "type": "zebra",
+                "x": 200
+              },
+              {
+                "type": "traffic",
+                "x": 200,
+                "side": "$side"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 148,
+                "y": 238,
+                "s": 0.72,
+                "face": "happy",
+                "armR": "hug",
+                "look": "$lookdir2"
+              },
+              {
+                "who": "ada",
+                "x": 196,
+                "y": 238,
+                "s": 0.72,
+                "face": "happy",
+                "armL": "hug",
+                "armR": "hug"
+              },
+              {
+                "who": "jasmine",
+                "x": 242,
+                "y": 238,
+                "s": 0.72,
+                "face": "big",
+                "armL": "hug",
+                "look": "$lookdir1"
+              },
+              {
+                "who": "marcus",
+                "x": 276,
+                "y": 238,
+                "s": 0.72,
+                "face": "happy",
+                "armL": "hug"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "panels": [
+        {
+          "panel_id": "S01E06-P08-A",
+          "shot": "wide",
+          "location": "street",
+          "visual": "Safe on the other side; parade cars roll past on the road.",
+          "characters": [
+            "Brian",
+            "Marcus"
+          ],
+          "caption": "Safe at the park — just in time for the Car Parade!",
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "We made it. Together!"
+            },
+            {
+              "speaker": "Marcus",
+              "text": "PARADE!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Safe on the {pavement}, the children cheer as colourful parade cars roll past on the road.",
+          "motion": {
+            "type": "limited",
+            "description": "cars roll",
+            "duration_ms": 700
+          },
+          "lesson_tags": [
+            "celebration"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "street",
+            "props": [
+              {
+                "type": "traffic",
+                "x": 200,
+                "side": "$side",
+                "moving": true
+              },
+              {
+                "type": "sparkles",
+                "x": 200,
+                "y": 40
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 90,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "anim": "bounce"
+              },
+              {
+                "who": "marcus",
+                "x": 310,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "flip": true,
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E06-P08-B",
+          "shot": "two-shot",
+          "location": "street",
+          "visual": "Ada points at a stop sign; Jasmine studies its shape.",
+          "characters": [
+            "Ada",
+            "Jasmine"
+          ],
+          "caption": "An eight-sided red sign means STOP.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Lights, signs and crossings help everyone share the road."
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "That sign has eight sides!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Beside the road stands a red eight-sided stop sign. Jasmine counts its sides while Auntie Ada smiles.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "signs",
+            "shapes"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "street",
+            "props": [
+              {
+                "type": "stopsign",
+                "x": 200,
+                "y": 112,
+                "word": "$stopword",
+                "poleLen": 126
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 310,
+                "face": "happy",
+                "armR": "point",
+                "flip": true,
+                "s": 0.9
+              },
+              {
+                "who": "jasmine",
+                "x": 90,
+                "face": "think",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "panels": [
+        {
+          "panel_id": "S01E06-P09-A",
+          "shot": "medium",
+          "location": "street",
+          "visual": "Brian thinks about the safest place to cross.",
+          "characters": [
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "So where's the safest place to cross?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian looks along the street at the {crossing}, thinking.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "safety"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch6-crossing",
+          "scene": {
+            "bg": "street",
+            "props": [
+              {
+                "type": "zebra",
+                "x": 270
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "think",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E06-P09-B",
+          "shot": "two-shot",
+          "location": "street",
+          "visual": "Marcus pretends to be a stop sign; Jasmine laughs.",
+          "characters": [
+            "Marcus",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Me a STOP sign!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "You're the cutest stop sign ever!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus stands very straight with both hands up like a stop sign. Jasmine giggles.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus wobbles",
+            "duration_ms": 450
+          },
+          "lesson_tags": [
+            "humour"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "street",
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 170,
+                "face": "determined",
+                "armL": "up",
+                "armR": "up",
+                "anim": "shake"
+              },
+              {
+                "who": "jasmine",
+                "x": 290,
+                "face": "laugh",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "panels": [
+        {
+          "panel_id": "S01E06-P10-A",
+          "shot": "two-shot",
+          "location": "street",
+          "visual": "Walking home, Brian and Jasmine remind each other of the rules.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "caption": "Walking home.",
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Remember, team: stop at the {kerb}."
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "And wait for the {walk}!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "On the walk home, Brian and Jasmine stop at the {kerb} and remind each other of the rules.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "safety",
+            "leadership"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "street",
+            "props": [
+              {
+                "type": "pedlight",
+                "x": 330,
+                "y": 130,
+                "state": "stop",
+                "style": "$pedstyle"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 100,
+                "face": "determined",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 200,
+                "face": "big",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E06-P10-B",
+          "shot": "two-shot",
+          "location": "street",
+          "visual": "Marcus adds his rule; Ada praises the team.",
+          "characters": [
+            "Marcus",
+            "Ada"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "And HOLD HANDS!"
+            },
+            {
+              "speaker": "Ada",
+              "text": "Road-safety stars! And a grown-up always comes with you near roads."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus holds Auntie Ada's hand tightly and beams. Ada smiles proudly.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "safety"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "street",
+            "props": [
+              {
+                "type": "sparkles",
+                "x": 200,
+                "y": 60
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 150,
+                "face": "big",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 240,
+                "face": "happy",
+                "armL": "hug",
+                "flip": true,
+                "s": 0.9
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "panels": [
+        {
+          "panel_id": "S01E06-P11-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Back in the garage, the children build a cardboard road for Bolt.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Let's build a road for Bolt — with a {crossing}!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "I'll make a paper traffic light."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "In the garage, Brian lays out a cardboard road on the floor. Jasmine holds up a small paper traffic light she has drawn.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "play",
+            "building"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "board",
+                "x": 150,
+                "w": 220
+              },
+              {
+                "type": "trafficlight",
+                "x": 330,
+                "y": 200,
+                "s": 0.6,
+                "state": "red",
+                "poleLen": 70
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 80,
+                "face": "big",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 250,
+                "face": "happy",
+                "armR": "hold",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E06-P11-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Marcus holds up the paper red light; Bolt stops right on time.",
+          "characters": [
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "RED! Bolt STOP!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus holds the paper traffic light showing red. Bolt has stopped on the cardboard road just before it.",
+          "motion": {
+            "type": "limited",
+            "description": "Bolt rolls and stops",
+            "duration_ms": 600
+          },
+          "lesson_tags": [
+            "play",
+            "signals"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "board",
+                "x": 60,
+                "w": 240
+              },
+              {
+                "type": "car",
+                "x": 210,
+                "y": 266,
+                "s": 0.8,
+                "anim": "rollshort"
+              },
+              {
+                "type": "trafficlight",
+                "x": 290,
+                "y": 168,
+                "s": 0.6,
+                "state": "red",
+                "pole": false,
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 320,
+                "face": "determined",
+                "armR": "hold",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "panels": [
+        {
+          "panel_id": "S01E06-P12-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian and Jasmine sum up the safety rules.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Stop at the {kerb}. Look {look1} first. Cross with a grown-up."
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "And follow the lights!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian and Jasmine stand proudly beside their cardboard road and paper traffic light.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "safety"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "trafficlight",
+                "x": 200,
+                "y": 180,
+                "s": 0.6,
+                "state": "green",
+                "poleLen": 90
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "big",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 290,
+                "face": "happy",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E06-P12-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "That night, Bolt won't move again — and there is no thread this time.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "caption": "Next time: The Battery Mystery!",
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Bolt won't go again… and this time there's no thread!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "A new mystery!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "In the evening garage, Brian kneels beside Bolt, which sits still with its switch on. Jasmine leans in, curious.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "teaser"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "night",
+            "props": [
+              {
+                "type": "car",
+                "x": 210,
+                "sw": "on"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "wow",
+                "look": 1,
+                "y": 284
+              },
+              {
+                "who": "jasmine",
+                "x": 310,
+                "face": "think",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

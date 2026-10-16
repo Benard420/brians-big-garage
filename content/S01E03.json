@@ -1,0 +1,1646 @@
+{
+  "series_id": "bbg",
+  "series_title": "Brian's Big Garage",
+  "episode_id": "S01E03",
+  "episode_number": 3,
+  "revision": "1.0",
+  "title": "The Great Ramp Race",
+  "hook": "Brian wants to win the Great Ramp Race with a giant push — but what does a race really test?",
+  "reading_minutes": 7,
+  "core_lesson": "A fair test changes one thing at a time — and fair play makes the result mean something.",
+  "new_terms": [
+    "gravity",
+    "measure"
+  ],
+  "adult_safety_note": "Children use cardboard cars, a low cardboard ramp and counting blocks on the floor. Keep ramps low and stable; no climbing on furniture to build them.",
+  "localisation_key_prefix": "s01e03",
+  "editorial_status": "draft",
+  "learning_objectives": [
+    {
+      "topic": "Science",
+      "goal": "Gravity pulls a car down a ramp; on our floor, a higher start made it roll farther."
+    },
+    {
+      "topic": "Fair test",
+      "goal": "Change only the ramp height; keep the car, start line and 'just let go' the same."
+    },
+    {
+      "topic": "Measurement",
+      "goal": "Measure height and distance with the same unit (blocks)."
+    },
+    {
+      "topic": "Number",
+      "goal": "Compare distances: 7 − 3 = 4 blocks farther."
+    },
+    {
+      "topic": "Fair play",
+      "goal": "Pushing wins nothing real; Brian apologises and the team races fairly."
+    },
+    {
+      "topic": "Engineering honesty",
+      "goal": "Results are for our car, ramp and floor — other set-ups give other numbers."
+    }
+  ],
+  "talk_together": [
+    "Why couldn't the first race tell anyone who really won?",
+    "What did the team keep the same in every test? What did they change?",
+    "Have you ever won something in a way that didn't feel fair? What did you do?"
+  ],
+  "complete": {
+    "recall": "Same start. Change one thing. Just let go — and measure!",
+    "question": "With a grown-up, prop a book under a board and roll a toy car down it. What happens with one book? Two books?"
+  },
+  "season": [
+    {
+      "ep": "01",
+      "title": "The Car That Wouldn't Move",
+      "concept": "wheels, axles, friction",
+      "link": "S01E01.html"
+    },
+    {
+      "ep": "02",
+      "title": "The Mystery of the Missing Wheels",
+      "concept": "parts and inventory",
+      "link": "S01E02.html"
+    },
+    {
+      "ep": "03",
+      "title": "The Great Ramp Race",
+      "concept": "gravity and fair tests",
+      "available": true
+    },
+    {
+      "ep": "04",
+      "title": "Inside the Mighty Engine",
+      "concept": "energy and propulsion",
+      "link": "S01E04.html"
+    },
+    {
+      "ep": "05",
+      "title": "The Time-Travel Garage",
+      "concept": "transport history"
+    },
+    {
+      "ep": "06",
+      "title": "Red Means Stop!",
+      "concept": "traffic infrastructure"
+    },
+    {
+      "ep": "07",
+      "title": "The Battery Mystery",
+      "concept": "simple circuits"
+    },
+    {
+      "ep": "08",
+      "title": "The Big Garage Mix-Up",
+      "concept": "scheduling"
+    },
+    {
+      "ep": "09",
+      "title": "Jasmine's Brilliant Idea",
+      "concept": "design iteration"
+    },
+    {
+      "ep": "10",
+      "title": "The Junior Engineer Challenge",
+      "concept": "full design process"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "ch3-fair",
+      "kind": "single_choice",
+      "label": "Fair rules",
+      "prompt": "Which rule makes the race fair?",
+      "options": [
+        {
+          "id": "push",
+          "text": "Everyone pushes as hard as they can."
+        },
+        {
+          "id": "same",
+          "text": "Everyone lets go from the same start line."
+        },
+        {
+          "id": "head",
+          "text": "The smallest car starts halfway down."
+        }
+      ],
+      "answer": "same",
+      "hint": "A fair race keeps things the same for everyone. What should be the same?",
+      "explain": "Same start and no pushing means the race really tests the cars — not who pushes hardest.",
+      "retry": true
+    },
+    {
+      "id": "ch3-ramp",
+      "kind": "explore",
+      "label": "Move the ramp",
+      "prompt": "Pick a ramp height and watch how far the car rolls. Try all three!",
+      "options": [
+        {
+          "id": "h1",
+          "text": "1 block",
+          "h": 1,
+          "result": 3
+        },
+        {
+          "id": "h2",
+          "text": "2 blocks",
+          "h": 2,
+          "result": 5
+        },
+        {
+          "id": "h3",
+          "text": "3 blocks",
+          "h": 3,
+          "result": 7
+        }
+      ],
+      "explain": "Higher ramp, farther roll — on our floor, with our car. Gravity gives the car more speed from a higher start."
+    },
+    {
+      "id": "ch3-compare",
+      "kind": "single_choice",
+      "label": "How much farther?",
+      "prompt": "Low ramp: 3 blocks. High ramp: 7 blocks. How many more blocks did the high ramp go?",
+      "options": [
+        {
+          "id": "3",
+          "text": "3"
+        },
+        {
+          "id": "4",
+          "text": "4"
+        },
+        {
+          "id": "5",
+          "text": "5"
+        },
+        {
+          "id": "10",
+          "text": "10"
+        }
+      ],
+      "answer": "4",
+      "hint": "Count up from 3 to 7 on your fingers: 4, 5, 6, 7. How many fingers?",
+      "explain": "7 − 3 = 4. The high ramp sent the car 4 blocks farther.",
+      "retry": true
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "panels": [
+        {
+          "panel_id": "S01E03-P01-A",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Race day bunting. Brian's red cardboard car waits at the top of a ramp. Brian flexes, ready to push.",
+          "characters": [
+            "Brian",
+            "Jasmine",
+            "Marcus"
+          ],
+          "caption": "Junior Build Day: the Great Ramp Race!",
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "My car will win. I'll give it a GIANT push!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "The garage is decorated with bunting. A red cardboard car sits at the top of a low ramp made from a board and blocks. Brian grins and holds up his arm, ready to push. Jasmine and Marcus hold their own cardboard cars.",
+          "motion": {
+            "type": "limited",
+            "description": "Brian bounces",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "problem"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "props": [
+              {
+                "type": "ramp2",
+                "x": 150,
+                "h": 2,
+                "car": "#F07550"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 90,
+                "face": "big",
+                "armL": "up",
+                "armR": "hip",
+                "look": 1,
+                "anim": "bounce"
+              },
+              {
+                "who": "jasmine",
+                "x": 315,
+                "face": "think",
+                "armR": "hold",
+                "flip": true
+              },
+              {
+                "who": "marcus",
+                "x": 365,
+                "face": "happy",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E03-P01-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Jasmine objects; Brian brushes her off.",
+          "characters": [
+            "Jasmine",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "Pushing isn't fair!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "It's my car. My rules!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine frowns with her hands on her hips. Brian folds his arms, sure of himself.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "fair play",
+            "assumption"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 120,
+                "face": "determined",
+                "armL": "hip",
+                "armR": "hip",
+                "look": 1
+              },
+              {
+                "who": "brian",
+                "x": 280,
+                "face": "determined",
+                "armL": "hip",
+                "armR": "hip",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "panels": [
+        {
+          "panel_id": "S01E03-P02-A",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Race 1 chaos: Brian's car zooms after a push, Jasmine's starts halfway down on the floor, Marcus's tips over sideways.",
+          "characters": [],
+          "caption": "Race 1: Brian pushes. Jasmine starts lower. Marcus rolls his car sideways.",
+          "dialogue": [],
+          "sfx": "BONK",
+          "alt_text": "Chaos! Brian's red car shoots off with speed lines after a push. Jasmine's purple car starts from the middle of the floor. Marcus's teal car has tipped onto its side with a BONK.",
+          "motion": {
+            "type": "limited",
+            "description": "cars scatter",
+            "duration_ms": 700
+          },
+          "lesson_tags": [
+            "fair test"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "props": [
+              {
+                "type": "ramp2",
+                "x": 20,
+                "h": 2
+              },
+              {
+                "type": "car",
+                "x": 330,
+                "s": 0.7,
+                "color": "#F07550",
+                "lines": true,
+                "anim": "zoom"
+              },
+              {
+                "type": "car",
+                "x": 220,
+                "y": 278,
+                "s": 0.7,
+                "color": "#8E81C9",
+                "anim": "rollshort"
+              },
+              {
+                "type": "car",
+                "x": 120,
+                "y": 262,
+                "s": 0.7,
+                "color": "#65B5A8",
+                "tilt": 80,
+                "anim": "shake"
+              }
+            ],
+            "sfx": [
+              {
+                "text": "BONK!",
+                "x": 120,
+                "y": 180,
+                "rot": -10,
+                "size": 36
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E03-P02-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian claims victory; Jasmine points out nobody started the same way.",
+          "characters": [
+            "Brian",
+            "Jasmine",
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "I won!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "You pushed, and nobody started the same way. We can't tell who won!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian cheers with his arms up. Jasmine points back at the messy race. Marcus scratches his head, confused.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "fair test",
+            "fair play"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 80,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 220,
+                "face": "determined",
+                "armR": "point",
+                "flip": true
+              },
+              {
+                "who": "marcus",
+                "x": 320,
+                "face": "think",
+                "armR": "up",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "panels": [
+        {
+          "panel_id": "S01E03-P03-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Ada kneels between the children and explains why the race told them nothing.",
+          "characters": [
+            "Ada",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "When everything changes at once, a race can't tell us anything."
+            },
+            {
+              "speaker": "Brian",
+              "text": "Hmm… so what do we do?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada speaks gently. Brian lowers his arms and thinks.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "fair test"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "think",
+                "armR": "hold",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 290,
+                "face": "happy",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E03-P03-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada points to the ramp: today they will test one thing — ramp height.",
+          "characters": [
+            "Ada"
+          ],
+          "caption": "Today's question: does a higher ramp make a car roll farther?",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Let's test ONE thing: how high the ramp is."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada points at a ramp propped on three stacked blocks, with a red cardboard car at the top.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "fair test",
+            "question"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "ramp2",
+                "x": 180,
+                "h": 3,
+                "car": "#F07550"
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 110,
+                "face": "happy",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "panels": [
+        {
+          "panel_id": "S01E03-P04-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Jasmine has an idea; Brian listens this time.",
+          "characters": [
+            "Jasmine",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "I have an idea for fair rules!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "I'm listening."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine raises her hand with a big smile. Brian turns to her and listens.",
+          "motion": {
+            "type": "limited",
+            "description": "Jasmine bounces",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "fair play",
+            "leadership"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch3-fair",
+          "scene": {
+            "bg": "garage",
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 130,
+                "face": "big",
+                "armR": "up",
+                "look": 1,
+                "anim": "bounce"
+              },
+              {
+                "who": "brian",
+                "x": 280,
+                "face": "happy",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E03-P04-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Jasmine marks a start line at the top of the ramp.",
+          "characters": [
+            "Jasmine",
+            "Brian"
+          ],
+          "caption": "Jasmine's rules: same car, same start line, just let go — no pushing.",
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "Same start. Same car. Just let go!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "Okay. No pushing."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine points to a taped start line at the top of the ramp. Brian nods and keeps his hands behind his back.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "fair test"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "ramp2",
+                "x": 160,
+                "h": 2,
+                "car": "#F07550"
+              },
+              {
+                "type": "startline",
+                "x": 176
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 100,
+                "face": "determined",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "brian",
+                "x": 340,
+                "face": "happy",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "panels": [
+        {
+          "panel_id": "S01E03-P05-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Marcus counts the blocks under the ramp.",
+          "characters": [
+            "Marcus"
+          ],
+          "caption": "New word: MEASURE — find out how high or how far, using the same unit.",
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "One block… two… THREE!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus points at the stack of three colourful blocks holding up the ramp, counting them.",
+          "motion": {
+            "type": "limited",
+            "description": "Marcus hops",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "measure",
+            "vocabulary",
+            "number"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "ramp2",
+                "x": 190,
+                "h": 3
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 130,
+                "face": "big",
+                "armR": "point",
+                "look": 1,
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E03-P05-B",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Counting blocks laid out in a line on the floor at the bottom of a 1-block ramp.",
+          "characters": [
+            "Ada",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "We'll measure how far it rolls in blocks too."
+            },
+            {
+              "speaker": "Brian",
+              "text": "Test one: ramp one block high."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "A ramp propped on one block, with the red car at the top. A row of seven numbered counting blocks lies on the floor beyond it.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "measure",
+            "fair test"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "ramp2",
+                "x": 30,
+                "h": 1,
+                "car": "#F07550"
+              },
+              {
+                "type": "blocks",
+                "x": 166,
+                "n": 7,
+                "lit": 0,
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 345,
+                "face": "happy",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "panels": [
+        {
+          "panel_id": "S01E03-P06-A",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Test 1 (1 block high): the car stops at block 3.",
+          "characters": [
+            "Marcus"
+          ],
+          "caption": "Test 1: one block high.",
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Three blocks!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "With the ramp one block high, the red car has rolled to the third counting block and stopped.",
+          "motion": {
+            "type": "limited",
+            "description": "car rolls",
+            "duration_ms": 800
+          },
+          "lesson_tags": [
+            "measure",
+            "data"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "ramp2",
+                "x": 30,
+                "h": 1
+              },
+              {
+                "type": "blocks",
+                "x": 166,
+                "n": 7,
+                "lit": 3,
+                "front": true
+              },
+              {
+                "type": "car",
+                "x": 238,
+                "y": 276,
+                "s": 0.62,
+                "color": "#F07550",
+                "anim": "rolllong",
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 340,
+                "face": "big",
+                "armR": "point",
+                "flip": true,
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E03-P06-B",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Test 2 (2 blocks high): the car stops at block 5.",
+          "characters": [
+            "Marcus",
+            "Jasmine"
+          ],
+          "caption": "Test 2: two blocks high.",
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Five blocks!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "That's farther!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "With the ramp two blocks high, the red car has rolled to the fifth counting block.",
+          "motion": {
+            "type": "limited",
+            "description": "car rolls",
+            "duration_ms": 800
+          },
+          "lesson_tags": [
+            "measure",
+            "data"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "ramp2",
+                "x": 30,
+                "h": 2
+              },
+              {
+                "type": "blocks",
+                "x": 166,
+                "n": 7,
+                "lit": 5,
+                "front": true
+              },
+              {
+                "type": "car",
+                "x": 298,
+                "y": 276,
+                "s": 0.62,
+                "color": "#F07550",
+                "anim": "rolllong",
+                "front": true
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 352,
+                "face": "big",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "panels": [
+        {
+          "panel_id": "S01E03-P07-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Brian sets the ramp to three blocks and wonders what will happen.",
+          "characters": [
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Now three blocks high. What will happen?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian stands beside the ramp, now propped on three blocks, with the red car waiting at the top.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "prediction"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch3-ramp",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "ramp2",
+                "x": 180,
+                "h": 3,
+                "car": "#F07550"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 110,
+                "face": "think",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E03-P07-B",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Test 3 (3 blocks high): the car rolls all the way to block 7.",
+          "characters": [
+            "Marcus"
+          ],
+          "caption": "Test 3: three blocks high.",
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "SEVEN!"
+            }
+          ],
+          "sfx": "WHOOSH",
+          "alt_text": "With the ramp three blocks high, the red car whooshes all the way to the seventh counting block.",
+          "motion": {
+            "type": "limited",
+            "description": "car rolls far",
+            "duration_ms": 800
+          },
+          "lesson_tags": [
+            "measure",
+            "data"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "ramp2",
+                "x": 30,
+                "h": 3
+              },
+              {
+                "type": "blocks",
+                "x": 166,
+                "n": 7,
+                "lit": 7,
+                "front": true
+              },
+              {
+                "type": "car",
+                "x": 358,
+                "y": 276,
+                "s": 0.62,
+                "color": "#F07550",
+                "lines": true,
+                "anim": "rolllong",
+                "front": true
+              }
+            ],
+            "sfx": [
+              {
+                "text": "WHOOSH!",
+                "x": 250,
+                "y": 160,
+                "rot": -6,
+                "size": 40
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "panels": [
+        {
+          "panel_id": "S01E03-P08-A",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "Ada explains gravity beside the tall ramp.",
+          "characters": [
+            "Ada"
+          ],
+          "caption": "New word: GRAVITY — the pull that makes things fall down.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Gravity pulls the car down the ramp. A higher start gives it more speed."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada points down the slope of the three-block ramp, tracing the car's path.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "gravity",
+            "vocabulary"
+          ],
+          "safety_status": "pending_review",
+          "fact": {
+            "title": "Is it always 7 blocks?",
+            "text": "No! Our numbers are for our cardboard car, our ramp and our floor. A different car, ramp or floor would give different numbers. Scientists repeat tests to check their results."
+          },
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "ramp2",
+                "x": 180,
+                "h": 3,
+                "car": "#F07550"
+              }
+            ],
+            "actors": [
+              {
+                "who": "ada",
+                "x": 110,
+                "face": "happy",
+                "armR": "point",
+                "look": 1
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E03-P08-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Jasmine's chart compares the low and high ramp results.",
+          "characters": [
+            "Jasmine",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "Low ramp: 3 blocks. High ramp: 7 blocks."
+            },
+            {
+              "speaker": "Brian",
+              "text": "How many more is that?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Jasmine holds up her chart with a short bar for the low ramp (3) and a tall bar for the high ramp (7). Brian studies it.",
+          "motion": {
+            "type": "limited",
+            "description": "chart pops",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "data",
+            "number"
+          ],
+          "safety_status": "pending_review",
+          "interaction": "ch3-compare",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "chart",
+                "x": 200,
+                "y": 100,
+                "bars": [
+                  3,
+                  7
+                ],
+                "front": true,
+                "anim": "pop"
+              }
+            ],
+            "actors": [
+              {
+                "who": "jasmine",
+                "x": 110,
+                "face": "happy",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "brian",
+                "x": 300,
+                "face": "think",
+                "armR": "hold",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "panels": [
+        {
+          "panel_id": "S01E03-P09-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian apologises to Jasmine for pushing.",
+          "characters": [
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "My push wasn't fair. Sorry, Jasmine."
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "Thanks. Let's race again — fairly!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian looks down and says sorry. Jasmine smiles and holds out her hand.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "fair play",
+            "leadership"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "actors": [
+              {
+                "who": "brian",
+                "x": 130,
+                "face": "sorry",
+                "armR": "hold",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 260,
+                "face": "happy",
+                "armR": "hug",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E03-P09-B",
+          "shot": "medium",
+          "location": "garage",
+          "visual": "The fair race: each car takes a turn from the same high ramp.",
+          "characters": [
+            "Ada",
+            "Marcus"
+          ],
+          "caption": "The fair race: same ramp, three blocks high, one car at a time.",
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "Ready… just let go!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus's teal cardboard car waits at the top of the three-block ramp. Auntie Ada and Marcus watch, hands off.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "fair test"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "props": [
+              {
+                "type": "ramp2",
+                "x": 160,
+                "h": 3,
+                "car": "#65B5A8"
+              },
+              {
+                "type": "startline",
+                "x": 174
+              }
+            ],
+            "actors": [
+              {
+                "who": "marcus",
+                "x": 100,
+                "face": "big",
+                "armL": "up",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 340,
+                "face": "happy",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "panels": [
+        {
+          "panel_id": "S01E03-P10-A",
+          "shot": "wide",
+          "location": "garage",
+          "visual": "Results: red car at block 5, purple at block 6, teal at block 7.",
+          "characters": [
+            "Jasmine"
+          ],
+          "caption": "Red: 5 blocks. Purple: 6 blocks. Teal: 7 blocks.",
+          "dialogue": [
+            {
+              "speaker": "Jasmine",
+              "text": "Marcus's car went the farthest!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Along the counting blocks: Brian's red car stopped at block 5, Jasmine's purple car at block 6, and Marcus's teal car at block 7.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "data",
+            "measure"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "props": [
+              {
+                "type": "ramp2",
+                "x": 30,
+                "h": 3
+              },
+              {
+                "type": "blocks",
+                "x": 166,
+                "n": 7,
+                "lit": 7,
+                "front": true
+              },
+              {
+                "type": "car",
+                "x": 298,
+                "y": 262,
+                "s": 0.55,
+                "color": "#F07550"
+              },
+              {
+                "type": "car",
+                "x": 328,
+                "y": 270,
+                "s": 0.55,
+                "color": "#8E81C9"
+              },
+              {
+                "type": "car",
+                "x": 358,
+                "y": 278,
+                "s": 0.55,
+                "color": "#65B5A8"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E03-P10-B",
+          "shot": "three-shot",
+          "location": "garage",
+          "visual": "Marcus does a victory dance; Brian cheers for him.",
+          "characters": [
+            "Marcus",
+            "Brian",
+            "Jasmine"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Me WIN! Me WIN!"
+            },
+            {
+              "speaker": "Brian",
+              "text": "Fair and square, Marcus!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Marcus does a wiggly victory dance with his arms up. Brian and Jasmine laugh and clap.",
+          "motion": {
+            "type": "limited",
+            "description": "victory dance",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "fair play",
+            "humour"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "props": [
+              {
+                "type": "sparkles",
+                "x": 200,
+                "y": 70
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 90,
+                "face": "laugh",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "marcus",
+                "x": 200,
+                "face": "laugh",
+                "armL": "up",
+                "armR": "up",
+                "anim": "bounce"
+              },
+              {
+                "who": "jasmine",
+                "x": 310,
+                "face": "laugh",
+                "armR": "up",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "panels": [
+        {
+          "panel_id": "S01E03-P11-A",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Ada explains what the fair race really tested.",
+          "characters": [
+            "Ada",
+            "Brian"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Ada",
+              "text": "The race was fair, so it tested the cars — not the pushing."
+            },
+            {
+              "speaker": "Brian",
+              "text": "So what makes Marcus's car better?"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Auntie Ada smiles. Brian looks curiously at Marcus's teal car.",
+          "motion": {
+            "type": "none",
+            "description": "",
+            "duration_ms": 0
+          },
+          "lesson_tags": [
+            "fair test",
+            "question"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "props": [
+              {
+                "type": "car",
+                "x": 210,
+                "s": 0.8,
+                "color": "#65B5A8"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 100,
+                "face": "think",
+                "armR": "point",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 310,
+                "face": "happy",
+                "flip": true
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E03-P11-B",
+          "shot": "close-up",
+          "location": "garage",
+          "visual": "Close-up of Marcus's car: its straw axle is perfectly straight.",
+          "characters": [
+            "Marcus",
+            "Jasmine"
+          ],
+          "caption": "Marcus pushed his straw axle in nice and straight.",
+          "dialogue": [
+            {
+              "speaker": "Marcus",
+              "text": "Wheels… STRAIGHT!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "His axle isn't bent, so the wheels spin easily!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Close-up of Marcus's teal cardboard car. A glowing ring highlights its straight axle and smoothly spinning wheels.",
+          "motion": {
+            "type": "limited",
+            "description": "wheels spin",
+            "duration_ms": 700
+          },
+          "lesson_tags": [
+            "axle",
+            "observation"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "closeup",
+            "props": [
+              {
+                "type": "car",
+                "x": 200,
+                "y": 238,
+                "s": 2.6,
+                "color": "#65B5A8",
+                "glow": true,
+                "spin": "all"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "panels": [
+        {
+          "panel_id": "S01E03-P12-A",
+          "shot": "three-shot",
+          "location": "garage",
+          "visual": "The siblings chant their new rule.",
+          "characters": [
+            "Brian",
+            "Jasmine",
+            "Marcus"
+          ],
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Same start. Change one thing. Just let go!"
+            },
+            {
+              "speaker": "Jasmine",
+              "text": "And measure!"
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian, Jasmine and Marcus stand together by the ramp, cheering their new rules.",
+          "motion": {
+            "type": "limited",
+            "description": "cheer",
+            "duration_ms": 500
+          },
+          "lesson_tags": [
+            "fair test",
+            "teamwork"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "race",
+            "props": [
+              {
+                "type": "ramp2",
+                "x": 260,
+                "h": 2,
+                "car": "#65B5A8"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 70,
+                "face": "big",
+                "armR": "up",
+                "look": 1
+              },
+              {
+                "who": "jasmine",
+                "x": 145,
+                "face": "laugh",
+                "armL": "up",
+                "armR": "up"
+              },
+              {
+                "who": "marcus",
+                "x": 215,
+                "face": "big",
+                "armL": "up",
+                "armR": "up",
+                "anim": "bounce"
+              }
+            ]
+          }
+        },
+        {
+          "panel_id": "S01E03-P12-B",
+          "shot": "two-shot",
+          "location": "garage",
+          "visual": "Brian asks Ada what makes a real car go; a simplified energy diagram floats above.",
+          "characters": [
+            "Brian",
+            "Ada"
+          ],
+          "caption": "Next time: Inside the Mighty Engine!",
+          "dialogue": [
+            {
+              "speaker": "Brian",
+              "text": "Auntie Ada, what makes a REAL car go?"
+            },
+            {
+              "speaker": "Ada",
+              "text": "Ah… let's look inside an engine."
+            }
+          ],
+          "sfx": "",
+          "alt_text": "Brian looks up at Auntie Ada with a big question. A simple energy-path drawing floats above them as a hint of the next adventure.",
+          "motion": {
+            "type": "limited",
+            "description": "diagram pops",
+            "duration_ms": 400
+          },
+          "lesson_tags": [
+            "teaser"
+          ],
+          "safety_status": "pending_review",
+          "scene": {
+            "bg": "garage",
+            "props": [
+              {
+                "type": "energypath",
+                "x": 200,
+                "y": 70,
+                "anim": "pop"
+              }
+            ],
+            "actors": [
+              {
+                "who": "brian",
+                "x": 120,
+                "face": "wow",
+                "look": 1
+              },
+              {
+                "who": "ada",
+                "x": 290,
+                "face": "happy",
+                "armR": "point",
+                "flip": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
