@@ -29,7 +29,7 @@ button,select,input{font:inherit;color:inherit}
 .wrap{max-width:760px;margin:0 auto;padding:12px 16px 32px}
 
 /* Buttons */
-.btn{min-width:44px;min-height:44px;border:3px solid var(--panel-border);background:var(--card);border-radius:12px;padding:6px 14px;cursor:pointer;font-weight:600;box-shadow:3px 3px 0 var(--panel-border);display:inline-flex;align-items:center;justify-content:center;gap:6px;text-decoration:none}
+.btn{min-width:44px;min-height:44px;border:3px solid var(--panel-border);background:var(--card);color:var(--ink);border-radius:12px;padding:6px 14px;cursor:pointer;font-weight:600;box-shadow:3px 3px 0 var(--panel-border);display:inline-flex;align-items:center;justify-content:center;gap:6px;text-decoration:none}
 .btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--panel-border)}
 .btn.primary{background:var(--amber);color:#1d2a36}
 .btn.teal{background:var(--teal);color:#1d2a36}
@@ -55,6 +55,8 @@ h3{margin:.8em 0 .3em}
 .hero svg{width:100%;height:auto;max-height:440px;border-radius:10px;border:3px solid #171B20;background:#E8E1D3;display:block;margin:0 auto}
 @media(min-width:640px){.hero{grid-template-columns:1.2fr 1fr}}
 .hero h2{margin-top:0}
+.hero .btn{background:#FFFDF8;color:#171B20;border-color:#171B20;box-shadow:3px 3px 0 #171B20}
+.hero .btn.ghost{background:transparent;box-shadow:none}
 .faces{display:flex;gap:10px;justify-content:center;margin:18px 0}
 .face{text-align:center;font-weight:600;font-size:.85em}
 .face svg{width:76px;height:76px;display:block;border-radius:50%;border:3px solid var(--panel-border);background:#FBE3B5}
@@ -188,7 +190,7 @@ body:not(.motion) .panel.enter{animation:none}
         <h2 id="shelfTitle">Continue the story</h2>
         <p id="heroTitle" style="font-weight:700;margin:.2em 0"></p>
         <p id="heroHook" style="margin:.2em 0 .8em"></p>
-        <div class="row"><button class="btn" id="btnContinue">▶ Read</button><button class="btn ghost" id="btnDetails" style="border-color:#1d2a36;color:#1d2a36">About this episode</button></div>
+        <div class="row"><button class="btn" id="btnContinue">▶ Read</button><button class="btn ghost" id="btnDetails">About this episode</button></div>
       </div>
       <div id="heroArt" aria-hidden="true"></div>
     </div>
