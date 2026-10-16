@@ -73,6 +73,38 @@ h3{margin:.8em 0 .3em}
 .progress > div{height:100%;background:var(--teal);transition:width .2s}
 .pos{font-weight:600;font-size:.9em}
 .panels{display:grid;gap:18px}
+/* Storybook mode: one panel per page, tap the edges or drag to turn, tap things in the art for surprises */
+.panels.book{position:relative;touch-action:pan-y;user-select:none;-webkit-user-select:none;perspective:1600px}
+.panels.book .panel{transform-origin:50% 50%;will-change:transform;backface-visibility:hidden}
+.panels.book .panel.settle{transition:transform .22s ease-out,opacity .22s ease-out}
+.motion .panel.turn-out-next{animation:turnOutNext .26s ease-in forwards}
+.motion .panel.turn-out-prev{animation:turnOutPrev .26s ease-in forwards}
+.motion .panel.turn-in-next{animation:turnInNext .3s ease-out}
+.motion .panel.turn-in-prev{animation:turnInPrev .3s ease-out}
+@keyframes turnOutNext{to{transform:translateX(-45%) rotateY(32deg);opacity:0}}
+@keyframes turnOutPrev{to{transform:translateX(45%) rotateY(-32deg);opacity:0}}
+@keyframes turnInNext{from{transform:translateX(40%) rotateY(-24deg);opacity:0}to{transform:none;opacity:1}}
+@keyframes turnInPrev{from{transform:translateX(-40%) rotateY(24deg);opacity:0}to{transform:none;opacity:1}}
+.edge{position:absolute;top:38%;width:40px;height:72px;border-radius:14px;background:rgba(23,27,32,.42);color:#fff;display:grid;place-items:center;font-size:24px;font-weight:700;pointer-events:none;z-index:2;opacity:0;transition:opacity .2s}
+.edge.l{left:6px}.edge.r{right:6px}
+.panels.book:hover .edge{opacity:.85}
+@media (hover:none){.edge{opacity:.5}}
+.edge.off{display:none}
+.art [data-tap]{cursor:pointer;transform-box:fill-box;transform-origin:50% 100%}
+.motion .art .react{animation:react .45s ease-out}
+.motion .art .react-car{animation:reactCar .6s ease-in-out}
+.motion .art .react-sfx{animation:pop .4s ease-out}
+@keyframes react{0%,100%{transform:none}30%{transform:translateY(-12px) scale(1.04)}65%{transform:scale(.98)}}
+@keyframes reactCar{0%,100%{transform:none}20%{transform:translateX(-6px)}60%{transform:translateX(16px)}}
+.popline{position:absolute;z-index:3;transform:translate(-50%,-100%);background:#FFFDF8;color:#171B20;border:3px solid #171B20;border-radius:14px;padding:4px 10px;font-weight:700;font-size:.95em;line-height:1.25;max-width:70%;text-align:center;pointer-events:none;box-shadow:3px 3px 0 #171B20}
+.popline.loud{font-family:var(--display);letter-spacing:1px;font-size:1.3em;background:var(--gold)}
+.motion .popline{animation:popIn .25s ease-out}
+@keyframes popIn{from{transform:translate(-50%,-80%) scale(.6);opacity:0}to{transform:translate(-50%,-100%) scale(1);opacity:1}}
+.bubble{cursor:pointer}
+.coach{position:absolute;inset:0;z-index:5;background:rgba(23,27,32,.82);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;border-radius:8px;padding:18px;font-weight:600}
+.coach .tips{display:grid;gap:10px;max-width:340px}
+.coach .tips div{display:flex;gap:10px;align-items:center;text-align:left}
+.coach .big{font-size:1.8em}
 .panels.page-view{grid-template-columns:1fr}
 @media(min-width:700px){.panels.page-view{grid-template-columns:1fr 1fr}.panels.page-view .panel:first-child:nth-last-child(odd){grid-column:1/-1}}
 .panel{margin:0;background:#fff;border:4px solid var(--panel-border);border-radius:8px;box-shadow:6px 6px 0 var(--panel-border);overflow:hidden;color:var(--bubble-ink)}
@@ -276,7 +308,7 @@ body:not(.motion) .panel.enter{animation:none}
         <li>Every panel has a written description for screen readers, and all words are real text (not part of the picture).</li>
         <li>Motion is optional and follows your device's reduced-motion setting. No flashing, no autoplay sound.</li>
         <li>The story works fully with sound off and motion off. Text size can go up to extra large.</li>
-        <li>Keyboard: ← and → turn panels. Swipe also works on touch screens.</li>
+        <li>Storybook mode: tap the right or left edge, swipe, use the ◀ Back / Next ▶ buttons, or press ← and →. Tapping characters and objects is an optional extra; nothing in the story depends on it.</li>
       </ul>
       <h3>Privacy</h3>
       <p>No accounts, no ads, no tracking, no network calls for the story. Only the reading position and settings are saved, in this browser on this device.</p>
@@ -332,7 +364,7 @@ const store = {
   set(k,v){ try{ localStorage.setItem(KEY+k, JSON.stringify(v)); }catch(e){} },
   clear(){ try{ Object.keys(localStorage).filter(k=>k.startsWith(KEY)).forEach(k=>localStorage.removeItem(k)); }catch(e){} }
 };
-const settings = Object.assign({motion:'system', text:'m', narrate:false, view:'panel', theme:'system', accent:'ng-gb'}, store.get('settings', {}));
+const settings = Object.assign({motion:'system', text:'m', narrate:false, view:'book', theme:'system', accent:'ng-gb', tapsound:true}, store.get('settings', {}));
 function saveSettings(){ store.set('settings', settings); applySettings(); }
 
 /* ---------- flatten panels ---------- */
@@ -350,6 +382,8 @@ function setLocale(code){
 if (RAW.locales) EP = fill(RAW, locVars(RAW.locales[settings.locale] ? settings.locale : Object.keys(RAW.locales)[0]));
 indexEpisode();
 let cur = Math.min(store.get('pos', 0), PANELS.length - 1);
+let pendingTurn = 0; // direction of the page turn that produced the next render (for the entry animation)
+if (settings.view === 'panel') settings.view = 'book';
 
 /* ---------- SVG art kit ----------
    Visual contract (comic-storybook-taste): "graphic street adventure" interiors — warm paper ground, ink #171B20,
@@ -848,10 +882,12 @@ function drawScene(sc){
   const props = sc.props || [];
   const draw = p => (PROPS[p.type] ? PROPS[p.type](p) : '');
   let s = bg(sc.bg || 'garage');
-  s += props.filter(p => !p.front).map(draw).join('');
-  s += (sc.actors || []).map(figure).join('');
-  s += props.filter(p => p.front).map(draw).join('');
-  s += (sc.sfx || []).map(sfxText).join('');
+  const TAPPABLE = /^(car|cars3|truck|horsecart|steamcar|oldcar|trafficlight|pedlight|stopsign|box|wheelpile|chart|banana|yarn|magnifier|checklist|photo|bins|ramp2)$/;
+  const tapProp = p => TAPPABLE.test(p.type) ? `<g data-tap="prop" data-kind="${p.type}" data-line="${esc(p.tap || '')}">${draw(p)}</g>` : draw(p);
+  s += props.filter(p => !p.front).map(tapProp).join('');
+  s += (sc.actors || []).map(a => `<g data-tap="actor" data-who="${a.who}" data-line="${esc(a.tap || '')}">${figure(a)}</g>`).join('');
+  s += props.filter(p => p.front).map(tapProp).join('');
+  s += (sc.sfx || []).map(fx => `<g data-tap="sfx" data-line="${esc(fx.text)}">${sfxText(fx)}</g>`).join('');
   return `<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">${s}</svg>`;
 }
 function portrait(who){
@@ -872,7 +908,7 @@ function applySettings(){
   if (settings.theme === 'system') delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = settings.theme;
   document.body.classList.toggle('motion', motionOn());
   const mb = $('#btnMotion'); mb.setAttribute('aria-pressed', String(motionOn())); mb.textContent = motionOn() ? '✨ Motion on' : '◻ Still';
-  $('#btnView').textContent = settings.view === 'page' ? '▢ Panel' : '▦ Page';
+  $('#btnView').textContent = settings.view === 'page' ? '📖 Book' : '▦ Page';
 }
 
 /* ---------- locale picker (road rules differ by country) ---------- */
@@ -948,7 +984,7 @@ function tailFor(p, speaker){
 }
 function panelEl(p, enter){
   const fig = document.createElement('figure');
-  fig.className = 'panel' + (enter ? ' enter' : '');
+  fig.className = 'panel' + (enter ? (pendingTurn ? ' turn-in-' + (pendingTurn > 0 ? 'next' : 'prev') : ' enter') : '');
   fig.setAttribute('aria-label', `Page ${p.page}, panel ${p.idx+1} of ${p.count}`);
   let h = '';
   if (p.caption) h += `<div class="caption"${p.caption_audio ? ` data-audio="${esc(p.caption_audio)}"` : ''}>${esc(p.caption)}</div>`;
@@ -980,9 +1016,15 @@ function visiblePanels(){
 function renderReader(){
   const p = PANELS[cur];
   const box = $('#panels');
-  box.className = 'panels' + (settings.view === 'page' ? ' page-view' : '');
+  const book = settings.view !== 'page';
+  box.className = 'panels' + (book ? ' book' : ' page-view');
   box.innerHTML = '';
   visiblePanels().forEach(x => box.appendChild(panelEl(x, true)));
+  pendingTurn = 0;
+  if (book){
+    box.insertAdjacentHTML('beforeend', `<span class="edge l${cur === 0 ? ' off' : ''}" aria-hidden="true">‹</span><span class="edge r" aria-hidden="true">›</span>`);
+    if (!store.get('coached', false)) showCoach(box);
+  }
   $('#pos').textContent = settings.view === 'page' ? `Page ${p.page} of ${EP.pages.length}` : `Page ${p.page} of ${EP.pages.length} · Panel ${p.idx+1} of ${p.count}`;
   if (RAW.locales && hasLocale()){ $('#btnLocale').classList.remove('hidden'); $('#btnLocale').textContent = '📍 ' + RAW.locales[settings.locale].label; }
   const pct = Math.round((cur+1)/PANELS.length*100);
@@ -1237,6 +1279,7 @@ function openSettings(){
     <div class="setting"><span>Motion</span>${seg('motion',[['system','Device'],['on','On'],['off','Still']])}</div>
     <div class="setting"><span>Read aloud automatically</span>${seg('narrate',[[true,'On'],[false,'Off']])}</div>
     <div class="setting"><span>Colours</span>${seg('theme',[['system','Device'],['light','Light'],['dark','Dark']])}</div>
+    <div class="setting"><span>Sounds when tapping things</span>${seg('tapsound',[[true,'On'],[false,'Off']])}</div>
     <div class="setting"><span>Voice accent</span>${seg('accent', Object.entries(ACCENTS).map(([k, a]) => [k, a.label]))}</div>
     <p class="muted" style="font-size:.85em" id="voiceReport">${voiceReport()}</p>
     <p class="muted" style="font-size:.85em">Recorded West African voice actors replace these device voices when narration files are added. Words are always shown on screen.</p>`, body => {
@@ -1287,10 +1330,10 @@ function buildPrintable(){
 /* ---------- wiring ---------- */
 $('#pageSelect').innerHTML = EP.pages.map(p => `<option value="${p.page}">Page ${p.page}</option>`).join('');
 $('#pageSelect').onchange = e => { cur = PANELS.findIndex(x => x.page === +e.target.value); stopSpeech(); renderReader(); };
-$('#btnNext').onclick = () => go(1);
-$('#btnPrev').onclick = () => go(-1);
+$('#btnNext').onclick = () => turn(1);
+$('#btnPrev').onclick = () => turn(-1);
 $('#btnMotion').onclick = () => { settings.motion = motionOn() ? 'off' : 'on'; saveSettings(); renderReader(); };
-$('#btnView').onclick = () => { settings.view = settings.view === 'page' ? 'panel' : 'page'; saveSettings(); renderReader(); };
+$('#btnView').onclick = () => { settings.view = settings.view === 'page' ? 'book' : 'page'; saveSettings(); renderReader(); };
 $('#btnSettings').onclick = openSettings;
 $('#btnLocale').onclick = () => openLocalePicker();
 $('#btnAdult').onclick = adultGate;
@@ -1300,20 +1343,135 @@ $('#btnNarrated').onclick = () => { settings.narrate = true; saveSettings(); sho
 $('#btnSelf').onclick = () => { settings.narrate = false; saveSettings(); show('reader'); };
 $('#btnAgain').onclick = () => { cur = 0; show('reader'); };
 $('#btnPrint').onclick = () => { buildPrintable(); window.print(); };
-$('#btnReset').onclick = () => { store.clear(); cur = 0; Object.assign(settings, {motion:'system', text:'m', narrate:false, view:'panel', theme:'system', locale:undefined}); applySettings(); renderAdult(); alert('Saved progress cleared on this device.'); };
+$('#btnReset').onclick = () => { store.clear(); cur = 0; Object.assign(settings, {motion:'system', text:'m', narrate:false, view:'book', theme:'system', locale:undefined}); applySettings(); renderAdult(); alert('Saved progress cleared on this device.'); };
 document.addEventListener('keydown', e => {
   if (!document.querySelector('#v-reader.active') || dlg.open) return;
   if (/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)) return;
-  if (e.key === 'ArrowRight'){ e.preventDefault(); go(1); }
-  if (e.key === 'ArrowLeft'){ e.preventDefault(); go(-1); }
+  if (e.key === 'ArrowRight'){ e.preventDefault(); turn(1); }
+  if (e.key === 'ArrowLeft'){ e.preventDefault(); turn(-1); }
 });
-let tx = null, ty = null;
-$('#panels').addEventListener('touchstart', e => { tx = e.touches[0].clientX; ty = e.touches[0].clientY; }, {passive:true});
-$('#panels').addEventListener('touchend', e => {
-  if (tx == null) return;
-  const dx = e.changedTouches[0].clientX - tx, dy = e.changedTouches[0].clientY - ty; tx = null;
-  if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy)*1.5) go(dx < 0 ? 1 : -1);
-}, {passive:true});
+/* ---------- storybook gestures ----------
+   Tap the left third = back, right third = forward; drag sideways to turn (the page follows the finger).
+   Taps on controls, speech bubbles or tappable art never turn the page. */
+const UI = 'button, a, select, input, .bubble, .panel-actions, .coach, [data-tap]';
+let drag = null, turning = false;
+function currentPanel(){ return document.querySelector('#panels.book .panel'); }
+function turn(dir){
+  if (turning) return;
+  if (dir < 0 && cur === 0 && settings.view !== 'page') return;
+  const p = currentPanel();
+  if (settings.view === 'page' || !motionOn() || !p){ pendingTurn = settings.view === 'page' ? 0 : dir; return go(dir); }
+  turning = true;
+  p.style.transform = ''; p.classList.remove('settle');
+  p.classList.add(dir > 0 ? 'turn-out-next' : 'turn-out-prev');
+  setTimeout(() => { turning = false; pendingTurn = dir; go(dir); }, 240);
+}
+$('#panels').addEventListener('pointerdown', e => {
+  if (settings.view === 'page' || e.button > 0) return;
+  drag = {x: e.clientX, y: e.clientY, t: performance.now(), dx: 0, moving: false, ui: !!e.target.closest(UI)};
+});
+$('#panels').addEventListener('pointermove', e => {
+  if (!drag) return;
+  drag.dx = e.clientX - drag.x; const dy = e.clientY - drag.y;
+  if (!drag.moving && Math.abs(drag.dx) > 10 && Math.abs(drag.dx) > Math.abs(dy) * 1.3) drag.moving = true;
+  const p = currentPanel();
+  if (drag.moving && p && motionOn()){
+    const dx = drag.dx * ((drag.dx > 0 && cur === 0) ? 0.25 : 1); // resist dragging back past the first page
+    p.classList.remove('settle');
+    p.style.transform = `translateX(${dx}px) rotateY(${-dx / 18}deg)`;
+  }
+});
+function endDrag(e){
+  if (!drag) return;
+  const d = drag; drag = null;
+  const p = currentPanel();
+  if (d.moving){
+    const v = Math.abs(d.dx) / Math.max(1, performance.now() - d.t);
+    const dir = d.dx < 0 ? 1 : -1;
+    if ((Math.abs(d.dx) > 70 || v > 0.6) && !(dir < 0 && cur === 0)) return turn(dir);
+    if (p){ p.classList.add('settle'); p.style.transform = ''; }
+    return;
+  }
+  if (d.ui || !e) return; // taps on controls, bubbles and art are handled by their own click handlers
+  const r = $('#panels').getBoundingClientRect(), fx = (e.clientX - r.left) / r.width;
+  if (fx < 1/3) turn(-1); else if (fx > 2/3) turn(1);
+}
+$('#panels').addEventListener('pointerup', endDrag);
+$('#panels').addEventListener('pointercancel', () => { const p = currentPanel(); if (p){ p.classList.add('settle'); p.style.transform = ''; } drag = null; });
+
+const REACT = {
+  brian:   ["Let's build it!", "Engineers test things!", "Ready, Bolt?", "Teamwork!"],
+  jasmine: ["I spy a clue!", "Look closer!", "Can I draw that?", "Ooh, a pattern!"],
+  marcus:  ["Vroom!", "Me help!", "Wheel!", "Beep beep!"],
+  ada:     ["Safety first!", "What do you notice?", "Good thinking!", "Let's find out."]
+};
+const PROP_LINES = {
+  car: ["VROOM!", "Beep beep!"], cars3: ["Beep! Beep! Beep!"], truck: ["Delivery!"], horsecart: ["Neigh!", "Clip-clop!"],
+  steamcar: ["CHUFF CHUFF!"], oldcar: ["Honk honk!"], trafficlight: ["Red means stop!"], pedlight: ["Wait for the signal!"],
+  stopsign: ["STOP!"], box: ["What's inside?"], wheelpile: ["Count in fours!"], chart: ["Data!"], banana: ["Energy!"],
+  yarn: ["Tangle!"], magnifier: ["Zoom in!"], checklist: ["Check, check!"], photo: ["Long, long ago…"], bins: ["Sorted!"], ramp2: ["Whee!"]
+};
+const LOUD = /^(car|cars3|truck|steamcar|oldcar|horsecart|stopsign)$/;
+const tapCount = {};
+function popLine(art, target, text, loud){
+  art.querySelectorAll('.popline').forEach(n => n.remove());
+  const ar = art.getBoundingClientRect(), tr = target.getBoundingClientRect();
+  const el = document.createElement('div');
+  el.className = 'popline' + (loud ? ' loud' : '');
+  el.textContent = text;
+  el.setAttribute('role', 'status');
+  el.style.left = Math.min(85, Math.max(15, ((tr.left + tr.width/2) - ar.left) / ar.width * 100)) + '%';
+  el.style.top = Math.max(18, (tr.top - ar.top) / ar.height * 100) + '%';
+  art.appendChild(el);
+  setTimeout(() => el.remove(), 1700);
+}
+function sayShort(text, who){
+  if (!settings.tapsound || !('speechSynthesis' in window)) return;
+  stopSpeech();
+  speakTTS({text, who: who || 'Narrator'}, () => {});
+}
+function replay(node, cls){ node.classList.remove(cls); void node.getBBox(); node.classList.add(cls); setTimeout(() => node.classList.remove(cls), 700); }
+$('#panels').addEventListener('click', e => {
+  const bubble = e.target.closest('.bubble');
+  if (bubble){ // tap a speech bubble to hear just that line
+    const text = bubble.childNodes[1] ? bubble.childNodes[1].textContent : bubble.textContent;
+    stopSpeech(); bubble.classList.add('speaking');
+    const done = () => bubble.classList.remove('speaking');
+    if (bubble.dataset.audio){ currentAudio = new Audio(bubble.dataset.audio); currentAudio.onended = done; currentAudio.play().catch(() => speakTTS({text, who: bubble.dataset.sp}, done)); }
+    else if ('speechSynthesis' in window) speakTTS({text, who: bubble.dataset.sp}, done);
+    else setTimeout(done, 800);
+    return;
+  }
+  const t = e.target.closest('[data-tap]'); if (!t) return;
+  const art = t.closest('.art'); if (!art) return;
+  const kind = t.dataset.tap;
+  if (kind === 'actor'){
+    const who = t.dataset.who, list = REACT[who] || ['Hi!'];
+    tapCount[who] = (tapCount[who] || 0) + 1;
+    const line = t.dataset.line || list[(tapCount[who] - 1) % list.length];
+    replay(t, 'react'); popLine(art, t, line, false);
+    sayShort(line, who.charAt(0).toUpperCase() + who.slice(1));
+  } else if (kind === 'prop'){
+    const k = t.dataset.kind, list = PROP_LINES[k] || ['!'];
+    tapCount[k] = (tapCount[k] || 0) + 1;
+    const line = t.dataset.line || list[(tapCount[k] - 1) % list.length];
+    replay(t, LOUD.test(k) ? 'react-car' : 'react'); popLine(art, t, line, LOUD.test(k));
+    sayShort(line, 'Narrator');
+  } else if (kind === 'sfx'){
+    replay(t, 'react-sfx'); sayShort(t.dataset.line, 'Narrator');
+  }
+});
+function showCoach(box){
+  const c = document.createElement('div');
+  c.className = 'coach'; c.setAttribute('role', 'dialog'); c.setAttribute('aria-label', 'How to read this storybook');
+  c.innerHTML = `<div class="tips"><div><span class="big" aria-hidden="true">👉</span><span>Tap the right edge, or swipe, to turn the page.</span></div>
+    <div><span class="big" aria-hidden="true">👆</span><span>Tap characters, cars and sound words for surprises.</span></div>
+    <div><span class="big" aria-hidden="true">💬</span><span>Tap a speech bubble to hear it.</span></div></div>
+    <button class="btn primary" type="button">Let's read!</button>`;
+  c.querySelector('button').onclick = () => { store.set('coached', true); c.remove(); };
+  box.appendChild(c);
+  c.querySelector('button').focus({preventScroll: true});
+}
 window.matchMedia('(prefers-reduced-motion: reduce)').addEventListener?.('change', applySettings);
 
 applySettings();

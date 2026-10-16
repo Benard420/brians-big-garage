@@ -18,6 +18,8 @@ node scripts/validate.mjs content/S01E01.json && node scripts/build.mjs content/
 
 Open `dist/S01E01.html?sheet` (served over http) for a contact sheet of all panels.
 
+Reading: storybook mode by default — tap the page edges or swipe to turn; tap characters, cars, sound words and speech bubbles for little reactions (optional, nothing in the story depends on them). The ▦ Page button shows a whole comic page at once.
+
 Status: M0/M1 creative prototype. All panels are `pending_review` — STEM, automotive, road-safety, accessibility and child-testing sign-offs (PRD §18) still needed. Read-aloud uses the device voice as a placeholder for recorded narration.
 
 Reusable skill: `~/.claude/skills/animated-comic-storybook/`.
